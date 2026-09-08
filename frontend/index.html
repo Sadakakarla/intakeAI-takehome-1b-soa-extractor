@@ -6,13 +6,14 @@
     <title>Clinical Schedule of Assessments (SoA) Extractor</title>
     <style>
         :root {
-            --primary: #2563eb;
-            --primary-hover: #1d4ed8;
-            --bg-color: #f8fafc;
+            --primary: #4f46e5; /* Indigo */
+            --primary-hover: #4338ca;
+            --secondary: #ec4899; /* Pink */
+            --bg-gradient: linear-gradient(135deg, #f0f9ff 0%, #e0e7ff 100%);
             --card-bg: #ffffff;
             --text-main: #1e293b;
-            --text-muted: #64748b;
-            --border-color: #e2e8f0;
+            --text-muted: #475569;
+            --border-color: #cbd5e1;
             --error-bg: #fef2f2;
             --error-text: #991b1b;
             --warning-bg: #fffbeb;
@@ -20,12 +21,13 @@
         }
 
         body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-            background-color: var(--bg-color);
-            color: var--text-main;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            background: var(--bg-gradient);
+            color: var(--text-main);
             margin: 0;
             padding: 2rem 1rem;
-            line-height: 1.5;
+            line-height: 1.6;
+            min-height: 100vh;
         }
 
         .container {
@@ -34,34 +36,47 @@
         }
 
         header {
-            margin-bottom: 2rem;
+            margin-bottom: 3rem;
             text-align: center;
         }
 
         h1 {
-            font-size: 2rem;
-            color: var(--text-main);
+            font-size: 2.5rem;
+            font-weight: 800;
+            background: linear-gradient(to right, var(--primary), var(--secondary));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
             margin-bottom: 0.5rem;
         }
 
         p.subtitle {
-            color: var--text-muted;
-            font-size: 1rem;
+            color: var(--text-muted);
+            font-size: 1.1rem;
+            font-weight: 500;
         }
 
         .upload-card {
             background: var(--card-bg);
-            border: 2px dashed var(--border-color);
-            border-radius: 12px;
-            padding: 2.5rem;
+            border: 2px dashed #94a3b8;
+            border-radius: 16px;
+            padding: 3rem 2rem;
             text-align: center;
-            transition: border-color 0.2s ease;
+            transition: all 0.3s ease;
             margin-bottom: 2rem;
-            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+            box-shadow: 0 10px 25px -5px rgba(0,0,0,0.05);
         }
 
         .upload-card:hover {
             border-color: var(--primary);
+            transform: translateY(-2px);
+            box-shadow: 0 20px 25px -5px rgba(0,0,0,0.1);
+        }
+
+        .upload-card.dragover {
+            border-color: var(--primary);
+            background-color: #f8fafc;
+            transform: scale(1.02);
+            box-shadow: 0 20px 25px -5px rgba(0,0,0,0.1);
         }
 
         input[type="file"] {
@@ -69,47 +84,52 @@
         }
 
         .file-upload-btn {
-            background-color: var(--primary);
+            background: linear-gradient(135deg, var(--primary), #6366f1);
             color: white;
-            padding: 0.75rem 1.5rem;
-            border-radius: 6px;
-            font-weight: 500;
+            padding: 0.85rem 2rem;
+            border-radius: 8px;
+            font-weight: 600;
             cursor: pointer;
             display: inline-block;
-            transition: background-color 0.2s;
+            transition: transform 0.2s, box-shadow 0.2s;
             margin-bottom: 1rem;
+            box-shadow: 0 4px 6px -1px rgba(79, 70, 229, 0.3);
         }
 
         .file-upload-btn:hover {
-            background-color: var(--primary-hover);
+            transform: scale(1.05);
+            box-shadow: 0 10px 15px -3px rgba(79, 70, 229, 0.4);
         }
 
         #file-name {
             display: block;
-            margin-top: 0.75rem;
-            font-weight: 500;
-            color: var(--text-muted);
+            margin-top: 1rem;
+            font-weight: 600;
+            color: var(--primary);
         }
 
         button.submit-btn {
             background-color: #0f172a;
             color: white;
             border: none;
-            padding: 0.75rem 2rem;
-            font-size: 1rem;
-            font-weight: 600;
-            border-radius: 6px;
+            padding: 0.85rem 2.5rem;
+            font-size: 1.05rem;
+            font-weight: 700;
+            border-radius: 8px;
             cursor: pointer;
-            transition: background-color 0.2s;
-            margin-top: 1rem;
+            transition: all 0.2s;
+            margin-top: 1.5rem;
+            box-shadow: 0 4px 6px -1px rgba(0,0,0,0.2);
         }
 
-        button.submit-btn:hover {
-            background-color: #334155;
+        button.submit-btn:hover:not(:disabled) {
+            background-color: #1e293b;
+            transform: translateY(-1px);
         }
 
         button.submit-btn:disabled {
-            background-color: var(--text-muted);
+            background-color: #94a3b8;
+            box-shadow: none;
             cursor: not-allowed;
         }
 
@@ -117,40 +137,55 @@
             display: none;
             text-align: center;
             margin: 2rem 0;
+            font-size: 1.2rem;
             color: var(--primary);
-            font-weight: 600;
+            font-weight: 700;
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0% { opacity: 1; }
+            50% { opacity: 0.5; }
+            100% { opacity: 1; }
         }
 
         .result-card {
             background: var(--card-bg);
-            border: 1px solid var(--border-color);
-            border-radius: 8px;
-            padding: 1.5rem;
-            margin-bottom: 2rem;
-            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+            border: none;
+            border-top: 5px solid var(--primary);
+            border-radius: 12px;
+            padding: 2rem;
+            margin-bottom: 2.5rem;
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
         }
 
         .result-card h3 {
             margin-top: 0;
             color: var(--text-main);
+            font-size: 1.5rem;
             border-bottom: 2px solid var(--border-color);
-            padding-bottom: 0.5rem;
+            padding-bottom: 0.75rem;
         }
 
         .meta-info {
-            font-size: 0.875rem;
-            color: var(--text-muted);
-            margin-bottom: 1rem;
+            font-size: 0.9rem;
+            font-weight: 500;
+            color: var(--secondary);
+            margin-bottom: 1.5rem;
+        }
+
+        .ambiguities-box, .error-box {
+            border-radius: 8px;
+            padding: 1.25rem;
+            margin-bottom: 1.5rem;
+            font-size: 0.95rem;
+            box-shadow: inset 0 2px 4px 0 rgba(0,0,0,0.02);
         }
 
         .ambiguities-box {
             background-color: var(--warning-bg);
             color: var(--warning-text);
-            border: 1px solid #fde68a;
-            border-radius: 6px;
-            padding: 1rem;
-            margin-bottom: 1.5rem;
-            font-size: 0.9rem;
+            border: 1px solid #fcd34d;
         }
 
         .ambiguities-box ul {
@@ -162,51 +197,81 @@
             background-color: var(--error-bg);
             color: var(--error-text);
             border: 1px solid #fca5a5;
-            border-radius: 6px;
-            padding: 1rem;
-            margin-bottom: 1.5rem;
         }
 
         .table-responsive {
             overflow-x: auto;
-            margin-top: 1rem;
+            margin-top: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 0 0 1px var(--border-color);
         }
 
         table.soa-grid {
             width: 100%;
             border-collapse: collapse;
-            font-size: 0.85rem;
+            font-size: 0.9rem;
             text-align: left;
+            background: white;
         }
 
         table.soa-grid th, table.soa-grid td {
             border: 1px solid var(--border-color);
-            padding: 0.5rem 0.75rem;
+            padding: 0.75rem 1rem;
         }
 
         table.soa-grid th {
-            background-color: #f1f5f9;
+            background-color: #1e293b;
+            color: white;
             font-weight: 600;
-            color: var(--text-main);
             text-align: center;
+            position: sticky;
+            top: 0;
+        }
+
+        table.soa-grid tbody tr:hover td {
+            background-color: #f1f5f9;
         }
 
         table.soa-grid td.row-label {
-            font-weight: 500;
-            background-color: #fafafa;
+            font-weight: 600;
+            background-color: #f8fafc;
+            color: #334155;
             white-space: nowrap;
         }
 
         table.soa-grid td.cell-value {
             text-align: center;
+            font-weight: 500;
+        }
+
+        .fn-badge {
+            display: inline-block;
+            background: var(--secondary);
+            color: white;
+            font-size: 0.65rem;
+            font-weight: 700;
+            padding: 0.1rem 0.4rem;
+            border-radius: 9999px;
+            vertical-align: super;
+            margin-left: 2px;
+            box-shadow: 0 1px 2px rgba(0,0,0,0.2);
         }
 
         .footnote-section {
-            margin-top: 1.5rem;
-            font-size: 0.85rem;
+            margin-top: 2rem;
+            font-size: 0.9rem;
             color: var(--text-muted);
-            border-top: 1px dashed var(--border-color);
-            padding-top: 1rem;
+            background: #f8fafc;
+            border-radius: 8px;
+            padding: 1.5rem;
+            border: 1px solid var(--border-color);
+        }
+        .footnote-section code {
+            background: var(--primary);
+            color: white;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-weight: bold;
         }
     </style>
 </head>
@@ -215,13 +280,13 @@
 <div class="container">
     <header>
         <h1>Clinical Schedule of Assessments (SoA) Extractor</h1>
-        <p class="subtitle">Upload a clinical trial protocol PDF to parse tables, grids, and footnotes automatically.</p>
+        <p class="subtitle">Drop a clinical trial protocol PDF below. The hybrid vision pipeline will automatically locate the Schedule of Assessments, parse the complex grid structure, and extract text-layer footnotes.</p>
     </header>
 
     <div class="upload-card">
         <label for="pdf-file" class="file-upload-btn">Choose Protocol PDF</label>
         <input type="file" id="pdf-file" accept=".pdf">
-        <span id="file-name">No file selected</span>
+        <span id="file-name">No file selected (Or drag and drop here)</span>
         <br>
         <button id="extract-btn" class="submit-btn" disabled>Extract SoA Matrix</button>
     </div>
@@ -236,17 +301,48 @@
     const extractBtn = document.getElementById('extract-btn');
     const loadingDiv = document.getElementById('loading');
     const resultsContainer = document.getElementById('results-container');
+    const uploadCard = document.querySelector('.upload-card');
 
-    fileInput.addEventListener('change', () => {
+    // Drag and Drop Logic
+    ['dragenter', 'dragover', 'dragleave', 'drop'].forEach(eventName => {
+        uploadCard.addEventListener(eventName, preventDefaults, false);
+        document.body.addEventListener(eventName, preventDefaults, false);
+    });
+
+    function preventDefaults(e) {
+        e.preventDefault();
+        e.stopPropagation();
+    }
+
+    ['dragenter', 'dragover'].forEach(eventName => {
+        uploadCard.addEventListener(eventName, () => uploadCard.classList.add('dragover'), false);
+    });
+
+    ['dragleave', 'drop'].forEach(eventName => {
+        uploadCard.addEventListener(eventName, () => uploadCard.classList.remove('dragover'), false);
+    });
+
+    uploadCard.addEventListener('drop', (e) => {
+        const dt = e.dataTransfer;
+        if (dt.files && dt.files.length > 0) {
+            fileInput.files = dt.files;
+            updateFileInfo();
+        }
+    }, false);
+
+    fileInput.addEventListener('change', updateFileInfo);
+
+    function updateFileInfo() {
         if (fileInput.files.length > 0) {
             fileNameSpan.textContent = fileInput.files[0].name;
             extractBtn.disabled = false;
         } else {
-            fileNameSpan.textContent = 'No file selected';
+            fileNameSpan.textContent = 'No file selected (Or drag and drop here)';
             extractBtn.disabled = true;
         }
-    });
+    }
 
+    // Extraction API Logic
     extractBtn.addEventListener('click', async () => {
         const file = fileInput.files[0];
         if (!file) return;
@@ -287,6 +383,7 @@
         }
     });
 
+    // Rendering Logic
     function renderResults(data) {
         if (!data.regions || data.regions.length === 0) {
             resultsContainer.innerHTML = `<div class="error-box">No Schedule of Activities regions found in this file.</div>`;
@@ -328,12 +425,17 @@
                 html += `</tr></thead><tbody>`;
 
                 parsed.rows.forEach(row => {
-                    html += `<tr><td class="row-label">${row.label}</td>`;
+                    let rowLabelContent = row.label;
+                    if (row.row_footnote_markers && row.row_footnote_markers.length > 0) {
+                        rowLabelContent += ` <span class="fn-badge">${row.row_footnote_markers.join(',')}</span>`;
+                    }
+                    html += `<tr><td class="row-label">${rowLabelContent}</td>`;
+                    
                     parsed.columns.forEach(col => {
                         const cell = row.cells[col.id] || { value: '', footnote_markers: [] };
                         let cellContent = cell.value || '';
                         if (cell.footnote_markers && cell.footnote_markers.length > 0) {
-                            cellContent += ` <sup style="color: #2563eb; font-weight:bold;">${cell.footnote_markers.join(',')}</sup>`;
+                            cellContent += ` <span class="fn-badge">${cell.footnote_markers.join(',')}</span>`;
                         }
                         html += `<td class="cell-value">${cellContent}</td>`;
                     });
@@ -343,9 +445,9 @@
                 html += `</tbody></table></div>`;
 
                 if (parsed.footnotes && parsed.footnotes.length > 0) {
-                    html += `<div class="footnote-section"><strong>Footnotes:</strong><br>`;
+                    html += `<div class="footnote-section"><strong>Footnotes:</strong><br><br>`;
                     parsed.footnotes.forEach(fn => {
-                        html += `<code>${fn.marker}</code>: ${fn.text || '<em>Definition not resolved</em>'}<br>`;
+                        html += `<code>${fn.marker}</code>: ${fn.text || '<em>Definition not resolved</em>'}<br><br>`;
                     });
                     html += `</div>`;
                 }

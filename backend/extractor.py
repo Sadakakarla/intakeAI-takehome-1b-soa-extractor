@@ -48,6 +48,8 @@ this exact shape:
     {
       "id": "r1",
       "lbl": "<assessment/activity name, verbatim. Only actual tests/procedures, NOT category section headers.>",
+      "fm": ["a", "1"],
+      // NEW: Any footnote markers attached directly to the row label itself. Omit "fm" entirely if none.
       "cells": [
         {"c": "c1", "v": "<EXACT verbatim cell content: 'X', 'P', '3X', 'Q2W', '(X)', a dose, etc.>", "fm": ["a","c"]}
         // ONLY include a cell here if it has a value or a marker.
@@ -66,12 +68,14 @@ this exact shape:
 }
 
 Do NOT include footnote text anywhere -- only the marker character(s) on
-the cells that carry them, in "fm". We extract footnote text separately.
+the cells or row labels that carry them, in "fm". We extract footnote text separately.
 
 CRITICAL RULES:
 - Capture cell values EXACTLY as printed. Do not normalize "3X"/"Q2W"/"(X)"
   to true/false or to a plain "X". Preserve doses, dashes, dots, arrows.
-- A cell may carry more than one footnote marker -- list all of them.
+- Spanning Arrows/Lines: If a continuous visual line or arrow spans horizontally across multiple columns, you MUST output "<-->" in EVERY cell that the arrow crosses. Do not leave those cells blank.
+- Verification: Before outputting, double-check that EVERY row is accounted for in the 'grp' arrays. Double-check faint checkmarks, 'X's, or marks under columns like 'Screening' or 'Discharge' and ensure they are captured.
+- A cell or row label may carry more than one footnote marker -- list all of them.
 - Carry forward column study periods ('per') horizontally if they span multiple columns.
 - If given more than one page, they are the SAME table continuing (headers
   may repeat, full or abbreviated -- that confirms column identity, it is
@@ -168,7 +172,14 @@ def expand_model_output(compact_data: dict) -> dict:
                 cell_map[cid] = {"value": "", "footnote_markers": []}
             cell_map[cid]["value"] = cell.get("v", "")
             cell_map[cid]["footnote_markers"] = cell.get("fm", [])
-        expanded["rows"].append({"id": row.get("id"), "label": row.get("lbl"), "cells": cell_map})
+        
+        # Capture row-level footnote markers
+        expanded["rows"].append({
+            "id": row.get("id"), 
+            "label": row.get("lbl"), 
+            "row_footnote_markers": row.get("fm", []), 
+            "cells": cell_map
+        })
 
     return expanded
 
@@ -300,6 +311,11 @@ def _attach_footnotes(merged_data: dict, footnote_text: dict) -> None:
     """
     used_markers = {}
     for row in merged_data.get("rows", []):
+        # 1. Grab markers on the row label itself
+        for m in row.get("row_footnote_markers", []):
+            used_markers.setdefault(m, []).append(f"{row['id']} (Row Label)")
+            
+        # 2. Grab markers on individual cells
         for col_id, cell in row.get("cells", {}).items():
             for m in cell.get("footnote_markers", []):
                 used_markers.setdefault(m, []).append(f"{row['id']}:{col_id}")
