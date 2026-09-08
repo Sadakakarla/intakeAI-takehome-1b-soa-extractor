@@ -1,0 +1,1793 @@
+[
+  {
+    "source_pages": [
+      25,
+      26,
+      27,
+      28
+    ],
+    "parsed": {
+      "heading": "Table 1. Overview of Study Assessments",
+      "columns": [
+        {
+          "id": "c1",
+          "period": "Screening",
+          "visit_label": null,
+          "study_day_or_week": "-4 to 0*",
+          "visit_window": null
+        },
+        {
+          "id": "c2",
+          "period": "Baseline",
+          "visit_label": null,
+          "study_day_or_week": null,
+          "visit_window": null
+        },
+        {
+          "id": "c3",
+          "period": "Randomization",
+          "visit_label": null,
+          "study_day_or_week": null,
+          "visit_window": null
+        },
+        {
+          "id": "c4",
+          "period": "Treatment",
+          "visit_label": null,
+          "study_day_or_week": "1-3",
+          "visit_window": null
+        },
+        {
+          "id": "c5",
+          "period": "Treatment",
+          "visit_label": null,
+          "study_day_or_week": "4",
+          "visit_window": null
+        },
+        {
+          "id": "c6",
+          "period": "Treatment",
+          "visit_label": null,
+          "study_day_or_week": "5-7",
+          "visit_window": null
+        },
+        {
+          "id": "c7",
+          "period": "Treatment",
+          "visit_label": null,
+          "study_day_or_week": "8",
+          "visit_window": null
+        },
+        {
+          "id": "c8",
+          "period": "Treatment",
+          "visit_label": null,
+          "study_day_or_week": "9-11",
+          "visit_window": null
+        },
+        {
+          "id": "c9",
+          "period": "Treatment",
+          "visit_label": null,
+          "study_day_or_week": "12",
+          "visit_window": null
+        },
+        {
+          "id": "c10",
+          "period": "Follow-up",
+          "visit_label": null,
+          "study_day_or_week": "16",
+          "visit_window": null
+        }
+      ],
+      "row_groups": [
+        {
+          "label": "Screening",
+          "row_ids": [
+            "chunk0_r1",
+            "chunk0_r2",
+            "chunk0_r3",
+            "chunk0_r4",
+            "chunk0_r5",
+            "chunk0_r6",
+            "chunk0_r7",
+            "chunk0_r8"
+          ]
+        },
+        {
+          "label": "Safety",
+          "row_ids": [
+            "chunk0_r9",
+            "chunk0_r10",
+            "chunk0_r11",
+            "chunk0_r12",
+            "chunk0_r13",
+            "chunk0_r14",
+            "chunk0_r15",
+            "chunk0_r16",
+            "chunk0_r17",
+            "chunk0_r18",
+            "chunk0_r19"
+          ]
+        },
+        {
+          "label": "Efficacy",
+          "row_ids": [
+            "chunk0_r20",
+            "chunk0_r21",
+            "chunk0_r22",
+            "chunk0_r23",
+            "chunk0_r24",
+            "chunk0_r25",
+            "chunk0_r26",
+            "chunk0_r27",
+            "chunk0_r28",
+            "chunk0_r29",
+            "chunk0_r30",
+            "chunk0_r31"
+          ]
+        }
+      ],
+      "rows": [
+        {
+          "id": "chunk0_r1",
+          "label": "Informed consent",
+          "cells": {
+            "c1": {
+              "value": "X",
+              "footnote_markers": []
+            },
+            "c2": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c3": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c4": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c5": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c6": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c7": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c8": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c9": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c10": {
+              "value": "",
+              "footnote_markers": []
+            }
+          }
+        },
+        {
+          "id": "chunk0_r2",
+          "label": "SCID",
+          "cells": {
+            "c1": {
+              "value": "X",
+              "footnote_markers": []
+            },
+            "c2": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c3": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c4": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c5": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c6": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c7": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c8": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c9": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c10": {
+              "value": "",
+              "footnote_markers": []
+            }
+          }
+        },
+        {
+          "id": "chunk0_r3",
+          "label": "Psychiatric evaluation",
+          "cells": {
+            "c1": {
+              "value": "X",
+              "footnote_markers": []
+            },
+            "c2": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c3": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c4": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c5": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c6": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c7": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c8": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c9": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c10": {
+              "value": "",
+              "footnote_markers": []
+            }
+          }
+        },
+        {
+          "id": "chunk0_r4",
+          "label": "ADD evaluation",
+          "cells": {
+            "c1": {
+              "value": "X",
+              "footnote_markers": []
+            },
+            "c2": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c3": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c4": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c5": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c6": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c7": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c8": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c9": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c10": {
+              "value": "",
+              "footnote_markers": []
+            }
+          }
+        },
+        {
+          "id": "chunk0_r5",
+          "label": "Medical history",
+          "cells": {
+            "c1": {
+              "value": "X",
+              "footnote_markers": []
+            },
+            "c2": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c3": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c4": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c5": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c6": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c7": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c8": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c9": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c10": {
+              "value": "",
+              "footnote_markers": []
+            }
+          }
+        },
+        {
+          "id": "chunk0_r6",
+          "label": "Prior medications",
+          "cells": {
+            "c1": {
+              "value": "X",
+              "footnote_markers": []
+            },
+            "c2": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c3": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c4": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c5": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c6": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c7": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c8": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c9": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c10": {
+              "value": "",
+              "footnote_markers": []
+            }
+          }
+        },
+        {
+          "id": "chunk0_r7",
+          "label": "Infectious disease panel/syphilis test",
+          "cells": {
+            "c1": {
+              "value": "X",
+              "footnote_markers": []
+            },
+            "c2": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c3": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c4": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c5": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c6": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c7": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c8": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c9": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c10": {
+              "value": "",
+              "footnote_markers": []
+            }
+          }
+        },
+        {
+          "id": "chunk0_r8",
+          "label": "HIV Test (optional)",
+          "cells": {
+            "c1": {
+              "value": "X",
+              "footnote_markers": []
+            },
+            "c2": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c3": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c4": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c5": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c6": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c7": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c8": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c9": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c10": {
+              "value": "",
+              "footnote_markers": []
+            }
+          }
+        },
+        {
+          "id": "chunk0_r9",
+          "label": "Physical exam/FEV1",
+          "cells": {
+            "c1": {
+              "value": "X",
+              "footnote_markers": []
+            },
+            "c2": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c3": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c4": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c5": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c6": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c7": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c8": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c9": {
+              "value": "X",
+              "footnote_markers": [
+                "c"
+              ]
+            },
+            "c10": {
+              "value": "",
+              "footnote_markers": []
+            }
+          }
+        },
+        {
+          "id": "chunk0_r10",
+          "label": "Vital signs",
+          "cells": {
+            "c1": {
+              "value": "X",
+              "footnote_markers": []
+            },
+            "c2": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c3": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c4": {
+              "value": "X",
+              "footnote_markers": [
+                "b"
+              ]
+            },
+            "c5": {
+              "value": "X",
+              "footnote_markers": [
+                "b"
+              ]
+            },
+            "c6": {
+              "value": "X",
+              "footnote_markers": [
+                "b"
+              ]
+            },
+            "c7": {
+              "value": "X",
+              "footnote_markers": [
+                "b"
+              ]
+            },
+            "c8": {
+              "value": "X",
+              "footnote_markers": [
+                "b"
+              ]
+            },
+            "c9": {
+              "value": "X",
+              "footnote_markers": [
+                "c"
+              ]
+            },
+            "c10": {
+              "value": "",
+              "footnote_markers": []
+            }
+          }
+        },
+        {
+          "id": "chunk0_r11",
+          "label": "Hematology",
+          "cells": {
+            "c1": {
+              "value": "X",
+              "footnote_markers": []
+            },
+            "c2": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c3": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c4": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c5": {
+              "value": "X",
+              "footnote_markers": [
+                "b"
+              ]
+            },
+            "c6": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c7": {
+              "value": "X",
+              "footnote_markers": [
+                "b"
+              ]
+            },
+            "c8": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c9": {
+              "value": "X",
+              "footnote_markers": [
+                "c"
+              ]
+            },
+            "c10": {
+              "value": "",
+              "footnote_markers": []
+            }
+          }
+        },
+        {
+          "id": "chunk0_r12",
+          "label": "Blood chemistries",
+          "cells": {
+            "c1": {
+              "value": "X",
+              "footnote_markers": []
+            },
+            "c2": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c3": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c4": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c5": {
+              "value": "X",
+              "footnote_markers": [
+                "b"
+              ]
+            },
+            "c6": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c7": {
+              "value": "X",
+              "footnote_markers": [
+                "b"
+              ]
+            },
+            "c8": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c9": {
+              "value": "X",
+              "footnote_markers": [
+                "c"
+              ]
+            },
+            "c10": {
+              "value": "",
+              "footnote_markers": []
+            }
+          }
+        },
+        {
+          "id": "chunk0_r13",
+          "label": "Ham-D",
+          "cells": {
+            "c1": {
+              "value": "X",
+              "footnote_markers": []
+            },
+            "c2": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c3": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c4": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c5": {
+              "value": "X",
+              "footnote_markers": [
+                "b"
+              ]
+            },
+            "c6": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c7": {
+              "value": "X",
+              "footnote_markers": [
+                "b"
+              ]
+            },
+            "c8": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c9": {
+              "value": "X",
+              "footnote_markers": [
+                "c"
+              ]
+            },
+            "c10": {
+              "value": "",
+              "footnote_markers": []
+            }
+          }
+        },
+        {
+          "id": "chunk0_r14",
+          "label": "CSSA",
+          "cells": {
+            "c1": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c2": {
+              "value": "3X",
+              "footnote_markers": []
+            },
+            "c3": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c4": {
+              "value": "X",
+              "footnote_markers": [
+                "b"
+              ]
+            },
+            "c5": {
+              "value": "X",
+              "footnote_markers": [
+                "b"
+              ]
+            },
+            "c6": {
+              "value": "X",
+              "footnote_markers": [
+                "b"
+              ]
+            },
+            "c7": {
+              "value": "X",
+              "footnote_markers": [
+                "b"
+              ]
+            },
+            "c8": {
+              "value": "X",
+              "footnote_markers": [
+                "b"
+              ]
+            },
+            "c9": {
+              "value": "X",
+              "footnote_markers": [
+                "c"
+              ]
+            },
+            "c10": {
+              "value": "",
+              "footnote_markers": []
+            }
+          }
+        },
+        {
+          "id": "chunk0_r15",
+          "label": "Urinalysis",
+          "cells": {
+            "c1": {
+              "value": "X",
+              "footnote_markers": []
+            },
+            "c2": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c3": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c4": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c5": {
+              "value": "X",
+              "footnote_markers": [
+                "b"
+              ]
+            },
+            "c6": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c7": {
+              "value": "X",
+              "footnote_markers": [
+                "b"
+              ]
+            },
+            "c8": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c9": {
+              "value": "X",
+              "footnote_markers": [
+                "c"
+              ]
+            },
+            "c10": {
+              "value": "",
+              "footnote_markers": []
+            }
+          }
+        },
+        {
+          "id": "chunk0_r16",
+          "label": "Pregnancy test",
+          "cells": {
+            "c1": {
+              "value": "X",
+              "footnote_markers": []
+            },
+            "c2": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c3": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c4": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c5": {
+              "value": "X",
+              "footnote_markers": [
+                "b"
+              ]
+            },
+            "c6": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c7": {
+              "value": "X",
+              "footnote_markers": [
+                "b"
+              ]
+            },
+            "c8": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c9": {
+              "value": "X",
+              "footnote_markers": [
+                "c"
+              ]
+            },
+            "c10": {
+              "value": "",
+              "footnote_markers": []
+            }
+          }
+        },
+        {
+          "id": "chunk0_r17",
+          "label": "ECG",
+          "cells": {
+            "c1": {
+              "value": "X",
+              "footnote_markers": []
+            },
+            "c2": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c3": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c4": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c5": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c6": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c7": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c8": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c9": {
+              "value": "X",
+              "footnote_markers": [
+                "c"
+              ]
+            },
+            "c10": {
+              "value": "X",
+              "footnote_markers": []
+            }
+          }
+        },
+        {
+          "id": "chunk0_r18",
+          "label": "Adverse events",
+          "cells": {
+            "c1": {
+              "value": "X",
+              "footnote_markers": []
+            },
+            "c2": {
+              "value": "X",
+              "footnote_markers": []
+            },
+            "c3": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c4": {
+              "value": "3X",
+              "footnote_markers": []
+            },
+            "c5": {
+              "value": "3X",
+              "footnote_markers": []
+            },
+            "c6": {
+              "value": "3X",
+              "footnote_markers": []
+            },
+            "c7": {
+              "value": "3X",
+              "footnote_markers": []
+            },
+            "c8": {
+              "value": "3X",
+              "footnote_markers": []
+            },
+            "c9": {
+              "value": "3X",
+              "footnote_markers": []
+            },
+            "c10": {
+              "value": "X",
+              "footnote_markers": []
+            }
+          }
+        },
+        {
+          "id": "chunk0_r19",
+          "label": "Concomitant medications",
+          "cells": {
+            "c1": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c2": {
+              "value": "Weekly x 2 weeks",
+              "footnote_markers": []
+            },
+            "c3": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c4": {
+              "value": "X",
+              "footnote_markers": [
+                "b"
+              ]
+            },
+            "c5": {
+              "value": "X",
+              "footnote_markers": [
+                "b"
+              ]
+            },
+            "c6": {
+              "value": "X",
+              "footnote_markers": [
+                "b"
+              ]
+            },
+            "c7": {
+              "value": "X",
+              "footnote_markers": [
+                "b"
+              ]
+            },
+            "c8": {
+              "value": "X",
+              "footnote_markers": [
+                "b"
+              ]
+            },
+            "c9": {
+              "value": "X",
+              "footnote_markers": [
+                "b"
+              ]
+            },
+            "c10": {
+              "value": "X",
+              "footnote_markers": []
+            }
+          }
+        },
+        {
+          "id": "chunk0_r20",
+          "label": "ASI-Lite",
+          "cells": {
+            "c1": {
+              "value": "X",
+              "footnote_markers": []
+            },
+            "c2": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c3": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c4": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c5": {
+              "value": "X",
+              "footnote_markers": [
+                "b"
+              ]
+            },
+            "c6": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c7": {
+              "value": "X",
+              "footnote_markers": [
+                "b"
+              ]
+            },
+            "c8": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c9": {
+              "value": "X",
+              "footnote_markers": [
+                "c"
+              ]
+            },
+            "c10": {
+              "value": "",
+              "footnote_markers": []
+            }
+          }
+        },
+        {
+          "id": "chunk0_r21",
+          "label": "HRBS",
+          "cells": {
+            "c1": {
+              "value": "X",
+              "footnote_markers": []
+            },
+            "c2": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c3": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c4": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c5": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c6": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c7": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c8": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c9": {
+              "value": "X",
+              "footnote_markers": [
+                "c"
+              ]
+            },
+            "c10": {
+              "value": "",
+              "footnote_markers": []
+            }
+          }
+        },
+        {
+          "id": "chunk0_r22",
+          "label": "BSCS",
+          "cells": {
+            "c1": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c2": {
+              "value": "Weekly x 2 weeks",
+              "footnote_markers": []
+            },
+            "c3": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c4": {
+              "value": "X",
+              "footnote_markers": [
+                "b"
+              ]
+            },
+            "c5": {
+              "value": "X",
+              "footnote_markers": [
+                "b"
+              ]
+            },
+            "c6": {
+              "value": "X",
+              "footnote_markers": [
+                "b"
+              ]
+            },
+            "c7": {
+              "value": "X",
+              "footnote_markers": [
+                "b"
+              ]
+            },
+            "c8": {
+              "value": "X",
+              "footnote_markers": [
+                "b"
+              ]
+            },
+            "c9": {
+              "value": "X",
+              "footnote_markers": [
+                "b"
+              ]
+            },
+            "c10": {
+              "value": "",
+              "footnote_markers": []
+            }
+          }
+        },
+        {
+          "id": "chunk0_r23",
+          "label": "CCQ-NOW",
+          "cells": {
+            "c1": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c2": {
+              "value": "X",
+              "footnote_markers": []
+            },
+            "c3": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c4": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c5": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c6": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c7": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c8": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c9": {
+              "value": "X",
+              "footnote_markers": [
+                "b"
+              ]
+            },
+            "c10": {
+              "value": "",
+              "footnote_markers": []
+            }
+          }
+        },
+        {
+          "id": "chunk0_r24",
+          "label": "CGI-S",
+          "cells": {
+            "c1": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c2": {
+              "value": "Weekly x 2 weeks",
+              "footnote_markers": []
+            },
+            "c3": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c4": {
+              "value": "X",
+              "footnote_markers": [
+                "b"
+              ]
+            },
+            "c5": {
+              "value": "X",
+              "footnote_markers": [
+                "b"
+              ]
+            },
+            "c6": {
+              "value": "X",
+              "footnote_markers": [
+                "b"
+              ]
+            },
+            "c7": {
+              "value": "X",
+              "footnote_markers": [
+                "b"
+              ]
+            },
+            "c8": {
+              "value": "X",
+              "footnote_markers": [
+                "b"
+              ]
+            },
+            "c9": {
+              "value": "X",
+              "footnote_markers": [
+                "b"
+              ]
+            },
+            "c10": {
+              "value": "",
+              "footnote_markers": []
+            }
+          }
+        },
+        {
+          "id": "chunk0_r25",
+          "label": "CGI-O",
+          "cells": {
+            "c1": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c2": {
+              "value": "Weekly x 2 weeks",
+              "footnote_markers": []
+            },
+            "c3": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c4": {
+              "value": "X",
+              "footnote_markers": [
+                "b"
+              ]
+            },
+            "c5": {
+              "value": "X",
+              "footnote_markers": [
+                "b"
+              ]
+            },
+            "c6": {
+              "value": "X",
+              "footnote_markers": [
+                "b"
+              ]
+            },
+            "c7": {
+              "value": "X",
+              "footnote_markers": [
+                "b"
+              ]
+            },
+            "c8": {
+              "value": "X",
+              "footnote_markers": [
+                "b"
+              ]
+            },
+            "c9": {
+              "value": "X",
+              "footnote_markers": [
+                "b"
+              ]
+            },
+            "c10": {
+              "value": "",
+              "footnote_markers": []
+            }
+          }
+        },
+        {
+          "id": "chunk0_r26",
+          "label": "SUI",
+          "cells": {
+            "c1": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c2": {
+              "value": "3 X/week for 2 weeks",
+              "footnote_markers": []
+            },
+            "c3": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c4": {
+              "value": "3 X",
+              "footnote_markers": []
+            },
+            "c5": {
+              "value": "3 X",
+              "footnote_markers": []
+            },
+            "c6": {
+              "value": "3 X",
+              "footnote_markers": []
+            },
+            "c7": {
+              "value": "3 X",
+              "footnote_markers": []
+            },
+            "c8": {
+              "value": "3 X",
+              "footnote_markers": []
+            },
+            "c9": {
+              "value": "3 X",
+              "footnote_markers": []
+            },
+            "c10": {
+              "value": "X",
+              "footnote_markers": []
+            }
+          }
+        },
+        {
+          "id": "chunk0_r27",
+          "label": "Urine BE and creatinine",
+          "cells": {
+            "c1": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c2": {
+              "value": "3 X/week for 2 weeks",
+              "footnote_markers": []
+            },
+            "c3": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c4": {
+              "value": "3 X",
+              "footnote_markers": []
+            },
+            "c5": {
+              "value": "3 X",
+              "footnote_markers": []
+            },
+            "c6": {
+              "value": "3 X",
+              "footnote_markers": []
+            },
+            "c7": {
+              "value": "3 X",
+              "footnote_markers": []
+            },
+            "c8": {
+              "value": "3 X",
+              "footnote_markers": []
+            },
+            "c9": {
+              "value": "3 X",
+              "footnote_markers": []
+            },
+            "c10": {
+              "value": "X",
+              "footnote_markers": []
+            }
+          }
+        },
+        {
+          "id": "chunk0_r28",
+          "label": "Urine tox screen",
+          "cells": {
+            "c1": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c2": {
+              "value": "Weekly x 2 weeks",
+              "footnote_markers": []
+            },
+            "c3": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c4": {
+              "value": "X",
+              "footnote_markers": [
+                "b"
+              ]
+            },
+            "c5": {
+              "value": "X",
+              "footnote_markers": [
+                "b"
+              ]
+            },
+            "c6": {
+              "value": "X",
+              "footnote_markers": [
+                "b"
+              ]
+            },
+            "c7": {
+              "value": "X",
+              "footnote_markers": [
+                "b"
+              ]
+            },
+            "c8": {
+              "value": "X",
+              "footnote_markers": [
+                "b"
+              ]
+            },
+            "c9": {
+              "value": "X",
+              "footnote_markers": [
+                "b"
+              ]
+            },
+            "c10": {
+              "value": "X",
+              "footnote_markers": []
+            }
+          }
+        },
+        {
+          "id": "chunk0_r29",
+          "label": "Serum prolactin",
+          "cells": {
+            "c1": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c2": {
+              "value": "X",
+              "footnote_markers": [
+                "a"
+              ]
+            },
+            "c3": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c4": {
+              "value": "X",
+              "footnote_markers": [
+                "a"
+              ]
+            },
+            "c5": {
+              "value": "X",
+              "footnote_markers": [
+                "a"
+              ]
+            },
+            "c6": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c7": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c8": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c9": {
+              "value": "X",
+              "footnote_markers": [
+                "c"
+              ]
+            },
+            "c10": {
+              "value": "",
+              "footnote_markers": []
+            }
+          }
+        },
+        {
+          "id": "chunk0_r30",
+          "label": "Treatment compliance",
+          "cells": {
+            "c1": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c2": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c3": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c4": {
+              "value": "3 X",
+              "footnote_markers": []
+            },
+            "c5": {
+              "value": "3 X",
+              "footnote_markers": []
+            },
+            "c6": {
+              "value": "3 X",
+              "footnote_markers": []
+            },
+            "c7": {
+              "value": "3 X",
+              "footnote_markers": []
+            },
+            "c8": {
+              "value": "3 X",
+              "footnote_markers": []
+            },
+            "c9": {
+              "value": "3 X",
+              "footnote_markers": []
+            },
+            "c10": {
+              "value": "",
+              "footnote_markers": []
+            }
+          }
+        },
+        {
+          "id": "chunk0_r31",
+          "label": "Follow-up interview",
+          "cells": {
+            "c1": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c2": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c3": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c4": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c5": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c6": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c7": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c8": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c9": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c10": {
+              "value": "X",
+              "footnote_markers": []
+            }
+          }
+        }
+      ],
+      "footnotes": [
+        {
+          "marker": "a",
+          "text": null,
+          "attached_to": [
+            "chunk0_r29:c2",
+            "chunk0_r29:c4",
+            "chunk0_r29:c5"
+          ]
+        },
+        {
+          "marker": "b",
+          "text": null,
+          "attached_to": [
+            "chunk0_r10:c4",
+            "chunk0_r10:c5",
+            "chunk0_r10:c6",
+            "chunk0_r10:c7",
+            "chunk0_r10:c8",
+            "chunk0_r11:c5",
+            "chunk0_r11:c7",
+            "chunk0_r12:c5",
+            "chunk0_r12:c7",
+            "chunk0_r13:c5",
+            "chunk0_r13:c7",
+            "chunk0_r14:c4",
+            "chunk0_r14:c5",
+            "chunk0_r14:c6",
+            "chunk0_r14:c7",
+            "chunk0_r14:c8",
+            "chunk0_r15:c5",
+            "chunk0_r15:c7",
+            "chunk0_r16:c5",
+            "chunk0_r16:c7",
+            "chunk0_r19:c4",
+            "chunk0_r19:c5",
+            "chunk0_r19:c6",
+            "chunk0_r19:c7",
+            "chunk0_r19:c8",
+            "chunk0_r19:c9",
+            "chunk0_r20:c5",
+            "chunk0_r20:c7",
+            "chunk0_r22:c4",
+            "chunk0_r22:c5",
+            "chunk0_r22:c6",
+            "chunk0_r22:c7",
+            "chunk0_r22:c8",
+            "chunk0_r22:c9",
+            "chunk0_r23:c9",
+            "chunk0_r24:c4",
+            "chunk0_r24:c5",
+            "chunk0_r24:c6",
+            "chunk0_r24:c7",
+            "chunk0_r24:c8",
+            "chunk0_r24:c9",
+            "chunk0_r25:c4",
+            "chunk0_r25:c5",
+            "chunk0_r25:c6",
+            "chunk0_r25:c7",
+            "chunk0_r25:c8",
+            "chunk0_r25:c9",
+            "chunk0_r28:c4",
+            "chunk0_r28:c5",
+            "chunk0_r28:c6",
+            "chunk0_r28:c7",
+            "chunk0_r28:c8",
+            "chunk0_r28:c9"
+          ]
+        },
+        {
+          "marker": "c",
+          "text": null,
+          "attached_to": [
+            "chunk0_r9:c9",
+            "chunk0_r10:c9",
+            "chunk0_r11:c9",
+            "chunk0_r12:c9",
+            "chunk0_r13:c9",
+            "chunk0_r14:c9",
+            "chunk0_r15:c9",
+            "chunk0_r16:c9",
+            "chunk0_r17:c9",
+            "chunk0_r20:c9",
+            "chunk0_r21:c9",
+            "chunk0_r29:c9"
+          ]
+        }
+      ],
+      "ambiguities": [
+        "Pages 26 and 27 contain protocol text (Section 13.1.1, 13.1.2, 13.2, 13.3) and are not part of the Table 1 Schedule of Assessments grid.",
+        "This page does not contain a Schedule of Assessments grid or table structure; it consists of narrative protocol text, continuation lists of assessments, and section headings (13.4 Assessments at Final Follow-Up, 13.5 Assessment Methods).",
+        "Footnote marker 'a' appears on cell(s) ['chunk0_r29:c2', 'chunk0_r29:c4', 'chunk0_r29:c5'] but its definition text could not be located via text-layer extraction. Needs manual check against the source.",
+        "Footnote marker 'b' appears on cell(s) ['chunk0_r10:c4', 'chunk0_r10:c5', 'chunk0_r10:c6', 'chunk0_r10:c7', 'chunk0_r10:c8', 'chunk0_r11:c5', 'chunk0_r11:c7', 'chunk0_r12:c5', 'chunk0_r12:c7', 'chunk0_r13:c5', 'chunk0_r13:c7', 'chunk0_r14:c4', 'chunk0_r14:c5', 'chunk0_r14:c6', 'chunk0_r14:c7', 'chunk0_r14:c8', 'chunk0_r15:c5', 'chunk0_r15:c7', 'chunk0_r16:c5', 'chunk0_r16:c7', 'chunk0_r19:c4', 'chunk0_r19:c5', 'chunk0_r19:c6', 'chunk0_r19:c7', 'chunk0_r19:c8', 'chunk0_r19:c9', 'chunk0_r20:c5', 'chunk0_r20:c7', 'chunk0_r22:c4', 'chunk0_r22:c5', 'chunk0_r22:c6', 'chunk0_r22:c7', 'chunk0_r22:c8', 'chunk0_r22:c9', 'chunk0_r23:c9', 'chunk0_r24:c4', 'chunk0_r24:c5', 'chunk0_r24:c6', 'chunk0_r24:c7', 'chunk0_r24:c8', 'chunk0_r24:c9', 'chunk0_r25:c4', 'chunk0_r25:c5', 'chunk0_r25:c6', 'chunk0_r25:c7', 'chunk0_r25:c8', 'chunk0_r25:c9', 'chunk0_r28:c4', 'chunk0_r28:c5', 'chunk0_r28:c6', 'chunk0_r28:c7', 'chunk0_r28:c8', 'chunk0_r28:c9'] but its definition text could not be located via text-layer extraction. Needs manual check against the source.",
+        "Footnote marker 'c' appears on cell(s) ['chunk0_r9:c9', 'chunk0_r10:c9', 'chunk0_r11:c9', 'chunk0_r12:c9', 'chunk0_r13:c9', 'chunk0_r14:c9', 'chunk0_r15:c9', 'chunk0_r16:c9', 'chunk0_r17:c9', 'chunk0_r20:c9', 'chunk0_r21:c9', 'chunk0_r29:c9'] but its definition text could not be located via text-layer extraction. Needs manual check against the source."
+      ]
+    },
+    "raw_model_output": null
+  }
+]

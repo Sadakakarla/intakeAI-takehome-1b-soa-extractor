@@ -1,0 +1,1788 @@
+[
+  {
+    "source_pages": [
+      26,
+      27,
+      28,
+      29
+    ],
+    "parsed": {
+      "heading": "Table 4. Schedule of Measures and Data Collection for Lofexidine Phase 3",
+      "columns": [
+        {
+          "id": "c1",
+          "period": "Opiate Agonist Phase (all Morphine)",
+          "visit_label": "1",
+          "study_day_or_week": "1",
+          "visit_window": null
+        },
+        {
+          "id": "c2",
+          "period": "Opiate Agonist Phase (all Morphine)",
+          "visit_label": "2",
+          "study_day_or_week": "2",
+          "visit_window": null
+        },
+        {
+          "id": "c3",
+          "period": "Opiate Agonist Phase (all Morphine)",
+          "visit_label": "3",
+          "study_day_or_week": "3",
+          "visit_window": null
+        },
+        {
+          "id": "c4",
+          "period": "Detoxification: Medication or Placebo Phase (randomized to Lofexidine or Placebo)",
+          "visit_label": "4",
+          "study_day_or_week": "4",
+          "visit_window": null
+        },
+        {
+          "id": "c5",
+          "period": "Detoxification: Medication or Placebo Phase (randomized to Lofexidine or Placebo)",
+          "visit_label": "5",
+          "study_day_or_week": "5",
+          "visit_window": null
+        },
+        {
+          "id": "c6",
+          "period": "Detoxification: Medication or Placebo Phase (randomized to Lofexidine or Placebo)",
+          "visit_label": "6",
+          "study_day_or_week": "6",
+          "visit_window": null
+        },
+        {
+          "id": "c7",
+          "period": "Detoxification: Medication or Placebo Phase (randomized to Lofexidine or Placebo)",
+          "visit_label": "7",
+          "study_day_or_week": "7",
+          "visit_window": null
+        },
+        {
+          "id": "c8",
+          "period": "Detoxification: Medication or Placebo Phase (randomized to Lofexidine or Placebo)",
+          "visit_label": "8",
+          "study_day_or_week": "8",
+          "visit_window": null
+        },
+        {
+          "id": "c9",
+          "period": "Post Med/ Detox Phase (Placebo, QID)",
+          "visit_label": "9",
+          "study_day_or_week": "9",
+          "visit_window": null
+        },
+        {
+          "id": "c10",
+          "period": "Post Med/ Detox Phase (Placebo, QID)",
+          "visit_label": "10",
+          "study_day_or_week": "10",
+          "visit_window": null
+        },
+        {
+          "id": "c11",
+          "period": "Medical Discharge",
+          "visit_label": "11",
+          "study_day_or_week": "11",
+          "visit_window": null
+        }
+      ],
+      "row_groups": [
+        {
+          "label": "Primary Outcome Measure:",
+          "row_ids": [
+            "chunk0_r14"
+          ]
+        },
+        {
+          "label": "Secondary Outcome Measures:",
+          "row_ids": [
+            "chunk0_r16",
+            "chunk0_r17",
+            "chunk0_r18",
+            "chunk0_r19",
+            "chunk0_r20",
+            "chunk0_r21",
+            "chunk0_r22"
+          ]
+        },
+        {
+          "label": "Abuse Potential Assessment:",
+          "row_ids": [
+            "chunk0_r25",
+            "chunk0_r26"
+          ]
+        },
+        {
+          "label": "Safety Measures:",
+          "row_ids": [
+            "chunk0_r27",
+            "chunk0_r28",
+            "chunk0_r29",
+            "chunk0_r30",
+            "chunk0_r31",
+            "chunk0_r32",
+            "chunk0_r33"
+          ]
+        }
+      ],
+      "rows": [
+        {
+          "id": "chunk0_r1",
+          "label": "Informed Consent, Screening (01), Opiate Screening (02)",
+          "cells": {
+            "c1": {
+              "value": "1X",
+              "footnote_markers": []
+            },
+            "c2": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c3": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c4": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c5": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c6": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c7": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c8": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c9": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c10": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c11": {
+              "value": "",
+              "footnote_markers": []
+            }
+          }
+        },
+        {
+          "id": "chunk0_r2",
+          "label": "* Morphine (0600, 1100, 1630, 2200 h)",
+          "cells": {
+            "c1": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c2": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c3": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c4": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c5": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c6": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c7": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c8": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c9": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c10": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c11": {
+              "value": "",
+              "footnote_markers": []
+            }
+          }
+        },
+        {
+          "id": "chunk0_r3",
+          "label": "**Lofexidine or Placebo (0800, 1300, 1800, 2300 h)",
+          "cells": {
+            "c1": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c2": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c3": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c4": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c5": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c6": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c7": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c8": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c9": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c10": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c11": {
+              "value": "",
+              "footnote_markers": []
+            }
+          }
+        },
+        {
+          "id": "chunk0_r4",
+          "label": "Medical History (03)",
+          "cells": {
+            "c1": {
+              "value": "1X",
+              "footnote_markers": []
+            },
+            "c2": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c3": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c4": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c5": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c6": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c7": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c8": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c9": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c10": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c11": {
+              "value": "",
+              "footnote_markers": []
+            }
+          }
+        },
+        {
+          "id": "chunk0_r5",
+          "label": "Physical Examination (04) (Study Day 1 and Exit Day)",
+          "cells": {
+            "c1": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c2": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c3": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c4": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c5": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c6": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c7": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c8": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c9": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c10": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c11": {
+              "value": "",
+              "footnote_markers": []
+            }
+          }
+        },
+        {
+          "id": "chunk0_r6",
+          "label": "Prior Medications (05)",
+          "cells": {
+            "c1": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c2": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c3": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c4": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c5": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c6": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c7": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c8": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c9": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c10": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c11": {
+              "value": "",
+              "footnote_markers": []
+            }
+          }
+        },
+        {
+          "id": "chunk0_r7",
+          "label": "Laboratory Assessments: Blood (06,07), Urine (08)",
+          "cells": {
+            "c1": {
+              "value": "1X",
+              "footnote_markers": []
+            },
+            "c2": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c3": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c4": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c5": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c6": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c7": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c8": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c9": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c10": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c11": {
+              "value": "1X",
+              "footnote_markers": []
+            }
+          }
+        },
+        {
+          "id": "chunk0_r8",
+          "label": "Serum Pregnancy Test (Beta HCG) (09)",
+          "cells": {
+            "c1": {
+              "value": "1X",
+              "footnote_markers": []
+            },
+            "c2": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c3": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c4": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c5": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c6": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c7": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c8": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c9": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c10": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c11": {
+              "value": "",
+              "footnote_markers": []
+            }
+          }
+        },
+        {
+          "id": "chunk0_r9",
+          "label": "Tuberculosis Skin Test (PPD), RPR, CD4 (10)",
+          "cells": {
+            "c1": {
+              "value": "1X",
+              "footnote_markers": []
+            },
+            "c2": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c3": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c4": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c5": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c6": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c7": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c8": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c9": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c10": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c11": {
+              "value": "",
+              "footnote_markers": []
+            }
+          }
+        },
+        {
+          "id": "chunk0_r10",
+          "label": "HIV (optional, per separate consent)",
+          "cells": {
+            "c1": {
+              "value": "Prior to Day 4",
+              "footnote_markers": []
+            },
+            "c2": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c3": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c4": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c5": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c6": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c7": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c8": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c9": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c10": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c11": {
+              "value": "",
+              "footnote_markers": []
+            }
+          }
+        },
+        {
+          "id": "chunk0_r11",
+          "label": "Psychiatric Assessment (SCID, Axis I, DSM IV) (11)",
+          "cells": {
+            "c1": {
+              "value": "Prior to Day 4",
+              "footnote_markers": []
+            },
+            "c2": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c3": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c4": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c5": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c6": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c7": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c8": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c9": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c10": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c11": {
+              "value": "",
+              "footnote_markers": []
+            }
+          }
+        },
+        {
+          "id": "chunk0_r12",
+          "label": "Addiction Severity Index (ASI) (12)",
+          "cells": {
+            "c1": {
+              "value": "Prior to Day 4",
+              "footnote_markers": []
+            },
+            "c2": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c3": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c4": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c5": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c6": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c7": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c8": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c9": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c10": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c11": {
+              "value": "",
+              "footnote_markers": []
+            }
+          }
+        },
+        {
+          "id": "chunk0_r13",
+          "label": "Weight (on admission & 0630-0800h \u0101 breakfast) (13)",
+          "cells": {
+            "c1": {
+              "value": "1X",
+              "footnote_markers": []
+            },
+            "c2": {
+              "value": "1X",
+              "footnote_markers": []
+            },
+            "c3": {
+              "value": "1X",
+              "footnote_markers": []
+            },
+            "c4": {
+              "value": "1X",
+              "footnote_markers": []
+            },
+            "c5": {
+              "value": "1X",
+              "footnote_markers": []
+            },
+            "c6": {
+              "value": "1X",
+              "footnote_markers": []
+            },
+            "c7": {
+              "value": "1X",
+              "footnote_markers": []
+            },
+            "c8": {
+              "value": "1X",
+              "footnote_markers": []
+            },
+            "c9": {
+              "value": "1X",
+              "footnote_markers": []
+            },
+            "c10": {
+              "value": "1X",
+              "footnote_markers": []
+            },
+            "c11": {
+              "value": "1X",
+              "footnote_markers": []
+            }
+          }
+        },
+        {
+          "id": "chunk0_r14",
+          "label": "*** Modified Himmelsbach (MHOWS), obtained at 1000h (13)",
+          "cells": {
+            "c1": {
+              "value": "1X",
+              "footnote_markers": []
+            },
+            "c2": {
+              "value": "1X",
+              "footnote_markers": []
+            },
+            "c3": {
+              "value": "1X",
+              "footnote_markers": []
+            },
+            "c4": {
+              "value": "1X",
+              "footnote_markers": []
+            },
+            "c5": {
+              "value": "1X",
+              "footnote_markers": []
+            },
+            "c6": {
+              "value": "1X",
+              "footnote_markers": []
+            },
+            "c7": {
+              "value": "1X",
+              "footnote_markers": []
+            },
+            "c8": {
+              "value": "1X",
+              "footnote_markers": []
+            },
+            "c9": {
+              "value": "1X",
+              "footnote_markers": []
+            },
+            "c10": {
+              "value": "1X",
+              "footnote_markers": []
+            },
+            "c11": {
+              "value": "",
+              "footnote_markers": []
+            }
+          }
+        },
+        {
+          "id": "chunk0_r15",
+          "label": "Emesis Tracking (14)",
+          "cells": {
+            "c1": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c2": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c3": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c4": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c5": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c6": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c7": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c8": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c9": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c10": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c11": {
+              "value": "",
+              "footnote_markers": []
+            }
+          }
+        },
+        {
+          "id": "chunk0_r16",
+          "label": "\u2022Modified Himmelsbach (MHOWS) (13) Peak Effect Detox/Med Phase",
+          "cells": {
+            "c1": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c2": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c3": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c4": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c5": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c6": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c7": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c8": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c9": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c10": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c11": {
+              "value": "",
+              "footnote_markers": []
+            }
+          }
+        },
+        {
+          "id": "chunk0_r17",
+          "label": "\u2022Objective Opiate Withdrawal Scale (15) (OOWS Handlesman) (1000h)",
+          "cells": {
+            "c1": {
+              "value": "1X",
+              "footnote_markers": []
+            },
+            "c2": {
+              "value": "1X",
+              "footnote_markers": []
+            },
+            "c3": {
+              "value": "1X",
+              "footnote_markers": []
+            },
+            "c4": {
+              "value": "1X",
+              "footnote_markers": []
+            },
+            "c5": {
+              "value": "1X",
+              "footnote_markers": []
+            },
+            "c6": {
+              "value": "1X",
+              "footnote_markers": []
+            },
+            "c7": {
+              "value": "1X",
+              "footnote_markers": []
+            },
+            "c8": {
+              "value": "1X",
+              "footnote_markers": []
+            },
+            "c9": {
+              "value": "1X",
+              "footnote_markers": []
+            },
+            "c10": {
+              "value": "1X",
+              "footnote_markers": []
+            },
+            "c11": {
+              "value": "",
+              "footnote_markers": []
+            }
+          }
+        },
+        {
+          "id": "chunk0_r18",
+          "label": "\u2022Short Opiate Withdrawal Scale (16) (SOWS Gossop) (1000h)",
+          "cells": {
+            "c1": {
+              "value": "1X",
+              "footnote_markers": []
+            },
+            "c2": {
+              "value": "1X",
+              "footnote_markers": []
+            },
+            "c3": {
+              "value": "1X",
+              "footnote_markers": []
+            },
+            "c4": {
+              "value": "1X",
+              "footnote_markers": []
+            },
+            "c5": {
+              "value": "1X",
+              "footnote_markers": []
+            },
+            "c6": {
+              "value": "1X",
+              "footnote_markers": []
+            },
+            "c7": {
+              "value": "1X",
+              "footnote_markers": []
+            },
+            "c8": {
+              "value": "1X",
+              "footnote_markers": []
+            },
+            "c9": {
+              "value": "1X",
+              "footnote_markers": []
+            },
+            "c10": {
+              "value": "1X",
+              "footnote_markers": []
+            },
+            "c11": {
+              "value": "",
+              "footnote_markers": []
+            }
+          }
+        },
+        {
+          "id": "chunk0_r19",
+          "label": "\u2022Modified Clinical Global Impressions Scale - Patient (17) (NIMH MCGI) ( 1000h)",
+          "cells": {
+            "c1": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c2": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c3": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c4": {
+              "value": "1X",
+              "footnote_markers": []
+            },
+            "c5": {
+              "value": "1X",
+              "footnote_markers": []
+            },
+            "c6": {
+              "value": "1X",
+              "footnote_markers": []
+            },
+            "c7": {
+              "value": "1X",
+              "footnote_markers": []
+            },
+            "c8": {
+              "value": "1X",
+              "footnote_markers": []
+            },
+            "c9": {
+              "value": "1X",
+              "footnote_markers": []
+            },
+            "c10": {
+              "value": "1X",
+              "footnote_markers": []
+            },
+            "c11": {
+              "value": "",
+              "footnote_markers": []
+            }
+          }
+        },
+        {
+          "id": "chunk0_r20",
+          "label": "\u2022Modified Clinical Global Impressions Scale - Rater (18) (NIMH MCGI) (1000h)",
+          "cells": {
+            "c1": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c2": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c3": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c4": {
+              "value": "1X",
+              "footnote_markers": []
+            },
+            "c5": {
+              "value": "1X",
+              "footnote_markers": []
+            },
+            "c6": {
+              "value": "1X",
+              "footnote_markers": []
+            },
+            "c7": {
+              "value": "1X",
+              "footnote_markers": []
+            },
+            "c8": {
+              "value": "1X",
+              "footnote_markers": []
+            },
+            "c9": {
+              "value": "1X",
+              "footnote_markers": []
+            },
+            "c10": {
+              "value": "1X",
+              "footnote_markers": []
+            },
+            "c11": {
+              "value": "",
+              "footnote_markers": []
+            }
+          }
+        },
+        {
+          "id": "chunk0_r21",
+          "label": "\u2022Subjective Opiate Withdrawal Scale (19) (SOWS Handlesman) (1000h)",
+          "cells": {
+            "c1": {
+              "value": "1X",
+              "footnote_markers": []
+            },
+            "c2": {
+              "value": "1X",
+              "footnote_markers": []
+            },
+            "c3": {
+              "value": "1X",
+              "footnote_markers": []
+            },
+            "c4": {
+              "value": "1X",
+              "footnote_markers": []
+            },
+            "c5": {
+              "value": "1X",
+              "footnote_markers": []
+            },
+            "c6": {
+              "value": "1X",
+              "footnote_markers": []
+            },
+            "c7": {
+              "value": "1X",
+              "footnote_markers": []
+            },
+            "c8": {
+              "value": "1X",
+              "footnote_markers": []
+            },
+            "c9": {
+              "value": "1X",
+              "footnote_markers": []
+            },
+            "c10": {
+              "value": "1X",
+              "footnote_markers": []
+            },
+            "c11": {
+              "value": "",
+              "footnote_markers": []
+            }
+          }
+        },
+        {
+          "id": "chunk0_r22",
+          "label": "\u2022Visual Analog Scale (VAS-E) (20)\u2013 Efficacy of Medication for Reducing Withdrawal Sickness (1000h)",
+          "cells": {
+            "c1": {
+              "value": "1X",
+              "footnote_markers": []
+            },
+            "c2": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c3": {
+              "value": "1X",
+              "footnote_markers": []
+            },
+            "c4": {
+              "value": "1X",
+              "footnote_markers": []
+            },
+            "c5": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c6": {
+              "value": "1X",
+              "footnote_markers": []
+            },
+            "c7": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c8": {
+              "value": "1X",
+              "footnote_markers": []
+            },
+            "c9": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c10": {
+              "value": "1X",
+              "footnote_markers": []
+            },
+            "c11": {
+              "value": "",
+              "footnote_markers": []
+            }
+          }
+        },
+        {
+          "id": "chunk0_r23",
+          "label": "Medication Administration/Concomitant Medications (21)",
+          "cells": {
+            "c1": {
+              "value": "1X",
+              "footnote_markers": []
+            },
+            "c2": {
+              "value": "1X",
+              "footnote_markers": []
+            },
+            "c3": {
+              "value": "1X",
+              "footnote_markers": []
+            },
+            "c4": {
+              "value": "1X",
+              "footnote_markers": []
+            },
+            "c5": {
+              "value": "1X",
+              "footnote_markers": []
+            },
+            "c6": {
+              "value": "1X",
+              "footnote_markers": []
+            },
+            "c7": {
+              "value": "1X",
+              "footnote_markers": []
+            },
+            "c8": {
+              "value": "1X",
+              "footnote_markers": []
+            },
+            "c9": {
+              "value": "1X",
+              "footnote_markers": []
+            },
+            "c10": {
+              "value": "1X",
+              "footnote_markers": []
+            },
+            "c11": {
+              "value": "1X",
+              "footnote_markers": []
+            }
+          }
+        },
+        {
+          "id": "chunk0_r24",
+          "label": "Drop Out Day (cf. End of Study Form (31) (Reason for Drop Out)",
+          "cells": {
+            "c1": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c2": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c3": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c4": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c5": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c6": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c7": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c8": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c9": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c10": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c11": {
+              "value": "",
+              "footnote_markers": []
+            }
+          }
+        },
+        {
+          "id": "chunk0_r25",
+          "label": "Addiction Research Center Inventory (22) - (ARCI-MBG) (1000h)",
+          "cells": {
+            "c1": {
+              "value": "1X",
+              "footnote_markers": []
+            },
+            "c2": {
+              "value": "1X",
+              "footnote_markers": []
+            },
+            "c3": {
+              "value": "1X",
+              "footnote_markers": []
+            },
+            "c4": {
+              "value": "1X",
+              "footnote_markers": []
+            },
+            "c5": {
+              "value": "1X",
+              "footnote_markers": []
+            },
+            "c6": {
+              "value": "1X",
+              "footnote_markers": []
+            },
+            "c7": {
+              "value": "1X",
+              "footnote_markers": []
+            },
+            "c8": {
+              "value": "1X",
+              "footnote_markers": []
+            },
+            "c9": {
+              "value": "1X",
+              "footnote_markers": []
+            },
+            "c10": {
+              "value": "1X",
+              "footnote_markers": []
+            },
+            "c11": {
+              "value": "",
+              "footnote_markers": []
+            }
+          }
+        },
+        {
+          "id": "chunk0_r26",
+          "label": "Visual Analog Scale (VAS-High)(23) (1000h)",
+          "cells": {
+            "c1": {
+              "value": "1X",
+              "footnote_markers": []
+            },
+            "c2": {
+              "value": "1X",
+              "footnote_markers": []
+            },
+            "c3": {
+              "value": "1X",
+              "footnote_markers": []
+            },
+            "c4": {
+              "value": "1X",
+              "footnote_markers": []
+            },
+            "c5": {
+              "value": "1X",
+              "footnote_markers": []
+            },
+            "c6": {
+              "value": "1X",
+              "footnote_markers": []
+            },
+            "c7": {
+              "value": "1X",
+              "footnote_markers": []
+            },
+            "c8": {
+              "value": "1X",
+              "footnote_markers": []
+            },
+            "c9": {
+              "value": "1X",
+              "footnote_markers": []
+            },
+            "c10": {
+              "value": "1X",
+              "footnote_markers": []
+            },
+            "c11": {
+              "value": "",
+              "footnote_markers": []
+            }
+          }
+        },
+        {
+          "id": "chunk0_r27",
+          "label": "(Sitting) Vital Signs (24, 33) (0800, 1000, 1100, 1300, 1800 2300h and at 0800 at day 11)",
+          "cells": {
+            "c1": {
+              "value": "6X",
+              "footnote_markers": []
+            },
+            "c2": {
+              "value": "6X",
+              "footnote_markers": []
+            },
+            "c3": {
+              "value": "6X",
+              "footnote_markers": []
+            },
+            "c4": {
+              "value": "6X",
+              "footnote_markers": []
+            },
+            "c5": {
+              "value": "6X",
+              "footnote_markers": []
+            },
+            "c6": {
+              "value": "6X",
+              "footnote_markers": []
+            },
+            "c7": {
+              "value": "6X",
+              "footnote_markers": []
+            },
+            "c8": {
+              "value": "6X",
+              "footnote_markers": []
+            },
+            "c9": {
+              "value": "6X",
+              "footnote_markers": []
+            },
+            "c10": {
+              "value": "6X",
+              "footnote_markers": []
+            },
+            "c11": {
+              "value": "1X",
+              "footnote_markers": []
+            }
+          }
+        },
+        {
+          "id": "chunk0_r28",
+          "label": "Orthostatic (Standing) Vital Signs (24,33) (800, 1100, 1300, 1800, 2300 and only at 0800 at day 11)",
+          "cells": {
+            "c1": {
+              "value": "5X",
+              "footnote_markers": []
+            },
+            "c2": {
+              "value": "5X",
+              "footnote_markers": []
+            },
+            "c3": {
+              "value": "5X",
+              "footnote_markers": []
+            },
+            "c4": {
+              "value": "5X",
+              "footnote_markers": []
+            },
+            "c5": {
+              "value": "5X",
+              "footnote_markers": []
+            },
+            "c6": {
+              "value": "5X",
+              "footnote_markers": []
+            },
+            "c7": {
+              "value": "5X",
+              "footnote_markers": []
+            },
+            "c8": {
+              "value": "5X",
+              "footnote_markers": []
+            },
+            "c9": {
+              "value": "5X",
+              "footnote_markers": []
+            },
+            "c10": {
+              "value": "5X",
+              "footnote_markers": []
+            },
+            "c11": {
+              "value": "1X",
+              "footnote_markers": []
+            }
+          }
+        },
+        {
+          "id": "chunk0_r29",
+          "label": "Electrocardiogram (25) (1300 to 1430h)",
+          "cells": {
+            "c1": {
+              "value": "1X",
+              "footnote_markers": []
+            },
+            "c2": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c3": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c4": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c5": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c6": {
+              "value": "1X",
+              "footnote_markers": []
+            },
+            "c7": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c8": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c9": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c10": {
+              "value": "1X",
+              "footnote_markers": []
+            },
+            "c11": {
+              "value": "",
+              "footnote_markers": []
+            }
+          }
+        },
+        {
+          "id": "chunk0_r30",
+          "label": "Adverse Events & Abnormal Clinical Signs: (26) (1000h)",
+          "cells": {
+            "c1": {
+              "value": "1X",
+              "footnote_markers": []
+            },
+            "c2": {
+              "value": "1X",
+              "footnote_markers": []
+            },
+            "c3": {
+              "value": "1X",
+              "footnote_markers": []
+            },
+            "c4": {
+              "value": "1X",
+              "footnote_markers": []
+            },
+            "c5": {
+              "value": "1X",
+              "footnote_markers": []
+            },
+            "c6": {
+              "value": "1X",
+              "footnote_markers": []
+            },
+            "c7": {
+              "value": "1X",
+              "footnote_markers": []
+            },
+            "c8": {
+              "value": "1X",
+              "footnote_markers": []
+            },
+            "c9": {
+              "value": "1X",
+              "footnote_markers": []
+            },
+            "c10": {
+              "value": "1X",
+              "footnote_markers": []
+            },
+            "c11": {
+              "value": "1X",
+              "footnote_markers": []
+            }
+          }
+        },
+        {
+          "id": "chunk0_r31",
+          "label": "Tobacco Withdrawal Scale (27) (1700)",
+          "cells": {
+            "c1": {
+              "value": "1X",
+              "footnote_markers": []
+            },
+            "c2": {
+              "value": "1X",
+              "footnote_markers": []
+            },
+            "c3": {
+              "value": "1X",
+              "footnote_markers": []
+            },
+            "c4": {
+              "value": "1X",
+              "footnote_markers": []
+            },
+            "c5": {
+              "value": "1X",
+              "footnote_markers": []
+            },
+            "c6": {
+              "value": "1X",
+              "footnote_markers": []
+            },
+            "c7": {
+              "value": "1X",
+              "footnote_markers": []
+            },
+            "c8": {
+              "value": "1X",
+              "footnote_markers": []
+            },
+            "c9": {
+              "value": "1X",
+              "footnote_markers": []
+            },
+            "c10": {
+              "value": "1X",
+              "footnote_markers": []
+            },
+            "c11": {
+              "value": "",
+              "footnote_markers": []
+            }
+          }
+        },
+        {
+          "id": "chunk0_r32",
+          "label": "Urine Toxicology (28)",
+          "cells": {
+            "c1": {
+              "value": "Admission, Monday, Wednesday, Friday, Discharge and As Needed",
+              "footnote_markers": []
+            },
+            "c2": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c3": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c4": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c5": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c6": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c7": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c8": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c9": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c10": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c11": {
+              "value": "",
+              "footnote_markers": []
+            }
+          }
+        },
+        {
+          "id": "chunk0_r33",
+          "label": "Plasma Lofexidine Pk (LCMS) (29) Total of 12 samples (10 ml of plasma each ), Day 4: 1X, 0800h; Day 6: 1X, 0800h Day 7: 8X, 0800, 0900, 1000, 1100, 1200, 1300, 1600, 1800h; 2100, 2300; Day 8: 1X:0800; Day 10: 1000h after MHOWS",
+          "cells": {
+            "c1": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c2": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c3": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c4": {
+              "value": "1 X",
+              "footnote_markers": []
+            },
+            "c5": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c6": {
+              "value": "1X",
+              "footnote_markers": []
+            },
+            "c7": {
+              "value": "8X",
+              "footnote_markers": []
+            },
+            "c8": {
+              "value": "1X",
+              "footnote_markers": []
+            },
+            "c9": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c10": {
+              "value": "1X",
+              "footnote_markers": []
+            },
+            "c11": {
+              "value": "",
+              "footnote_markers": []
+            }
+          }
+        }
+      ],
+      "footnotes": [],
+      "ambiguities": [
+        "Page 29 contains only footnote text, definitions, and notes for Table 4, with no table grid columns or rows."
+      ]
+    },
+    "raw_model_output": null
+  }
+]

@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clinical Schedule of Assessments (SoA) Extractor</title>
+    <style>
+        :root {
+            --primary: #2563eb;
+            --primary-hover: #1d4ed8;
+            --bg-color: #f8fafc;
+            --card-bg: #ffffff;
+            --text-main: #1e293b;
+            --text-muted: #64748b;
+            --border-color: #e2e8f0;
+            --error-bg: #fef2f2;
+            --error-text: #991b1b;
+            --warning-bg: #fffbeb;
+            --warning-text: #92400e;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var--text-main;
+            margin: 0;
+            padding: 2rem 1rem;
+            line-height: 1.5;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        header {
+            margin-bottom: 2rem;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 2rem;
+            color: var(--text-main);
+            margin-bottom: 0.5rem;
+        }
+
+        p.subtitle {
+            color: var--text-muted;
+            font-size: 1rem;
+        }
+
+        .upload-card {
+            background: var(--card-bg);
+            border: 2px dashed var(--border-color);
+            border-radius: 12px;
+            padding: 2.5rem;
+            text-align: center;
+            transition: border-color 0.2s ease;
+            margin-bottom: 2rem;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+        }
+
+        .upload-card:hover {
+            border-color: var(--primary);
+        }
+
+        input[type="file"] {
+            display: none;
+        }
+
+        .file-upload-btn {
+            background-color: var(--primary);
+            color: white;
+            padding: 0.75rem 1.5rem;
+            border-radius: 6px;
+            font-weight: 500;
+            cursor: pointer;
+            display: inline-block;
+            transition: background-color 0.2s;
+            margin-bottom: 1rem;
+        }
+
+        .file-upload-btn:hover {
+            background-color: var(--primary-hover);
+        }
+
+        #file-name {
+            display: block;
+            margin-top: 0.75rem;
+            font-weight: 500;
+            color: var(--text-muted);
+        }
+
+        button.submit-btn {
+            background-color: #0f172a;
+            color: white;
+            border: none;
+            padding: 0.75rem 2rem;
+            font-size: 1rem;
+            font-weight: 600;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: background-color 0.2s;
+            margin-top: 1rem;
+        }
+
+        button.submit-btn:hover {
+            background-color: #334155;
+        }
+
+        button.submit-btn:disabled {
+            background-color: var(--text-muted);
+            cursor: not-allowed;
+        }
+
+        #loading {
+            display: none;
+            text-align: center;
+            margin: 2rem 0;
+            color: var(--primary);
+            font-weight: 600;
+        }
+
+        .result-card {
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            padding: 1.5rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+        }
+
+        .result-card h3 {
+            margin-top: 0;
+            color: var(--text-main);
+            border-bottom: 2px solid var(--border-color);
+            padding-bottom: 0.5rem;
+        }
+
+        .meta-info {
+            font-size: 0.875rem;
+            color: var(--text-muted);
+            margin-bottom: 1rem;
+        }
+
+        .ambiguities-box {
+            background-color: var(--warning-bg);
+            color: var(--warning-text);
+            border: 1px solid #fde68a;
+            border-radius: 6px;
+            padding: 1rem;
+            margin-bottom: 1.5rem;
+            font-size: 0.9rem;
+        }
+
+        .ambiguities-box ul {
+            margin: 0.5rem 0 0 1.25rem;
+            padding: 0;
+        }
+
+        .error-box {
+            background-color: var(--error-bg);
+            color: var(--error-text);
+            border: 1px solid #fca5a5;
+            border-radius: 6px;
+            padding: 1rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .table-responsive {
+            overflow-x: auto;
+            margin-top: 1rem;
+        }
+
+        table.soa-grid {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 0.85rem;
+            text-align: left;
+        }
+
+        table.soa-grid th, table.soa-grid td {
+            border: 1px solid var(--border-color);
+            padding: 0.5rem 0.75rem;
+        }
+
+        table.soa-grid th {
+            background-color: #f1f5f9;
+            font-weight: 600;
+            color: var(--text-main);
+            text-align: center;
+        }
+
+        table.soa-grid td.row-label {
+            font-weight: 500;
+            background-color: #fafafa;
+            white-space: nowrap;
+        }
+
+        table.soa-grid td.cell-value {
+            text-align: center;
+        }
+
+        .footnote-section {
+            margin-top: 1.5rem;
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            border-top: 1px dashed var(--border-color);
+            padding-top: 1rem;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <h1>Clinical Schedule of Assessments (SoA) Extractor</h1>
+        <p class="subtitle">Upload a clinical trial protocol PDF to parse tables, grids, and footnotes automatically.</p>
+    </header>
+
+    <div class="upload-card">
+        <label for="pdf-file" class="file-upload-btn">Choose Protocol PDF</label>
+        <input type="file" id="pdf-file" accept=".pdf">
+        <span id="file-name">No file selected</span>
+        <br>
+        <button id="extract-btn" class="submit-btn" disabled>Extract SoA Matrix</button>
+    </div>
+
+    <div id="loading">Processing document through Gemini vision pipeline... Please wait.</div>
+    <div id="results-container"></div>
+</div>
+
+<script>
+    const fileInput = document.getElementById('pdf-file');
+    const fileNameSpan = document.getElementById('file-name');
+    const extractBtn = document.getElementById('extract-btn');
+    const loadingDiv = document.getElementById('loading');
+    const resultsContainer = document.getElementById('results-container');
+
+    fileInput.addEventListener('change', () => {
+        if (fileInput.files.length > 0) {
+            fileNameSpan.textContent = fileInput.files[0].name;
+            extractBtn.disabled = false;
+        } else {
+            fileNameSpan.textContent = 'No file selected';
+            extractBtn.disabled = true;
+        }
+    });
+
+    extractBtn.addEventListener('click', async () => {
+        const file = fileInput.files[0];
+        if (!file) return;
+
+        const formData = new FormData();
+        formData.append('file', file);
+
+        loadingDiv.style.display = 'block';
+        resultsContainer.innerHTML = '';
+        extractBtn.disabled = true;
+
+        try {
+            const response = await fetch('/api/extract', {
+                method: 'POST',
+                body: formData
+            });
+
+            const data = await response.json();
+            loadingDiv.style.display = 'none';
+            extractBtn.disabled = false;
+
+            if (!response.ok) {
+                resultsContainer.innerHTML = `<div class="error-box"><strong>Error:</strong> ${data.detail || 'Extraction failed.'}</div>`;
+                return;
+            }
+
+            if (data.message) {
+                resultsContainer.innerHTML = `<div class="error-box">${data.message}</div>`;
+                return;
+            }
+
+            renderResults(data);
+
+        } catch (err) {
+            loadingDiv.style.display = 'none';
+            extractBtn.disabled = false;
+            resultsContainer.innerHTML = `<div class="error-box"><strong>Network Error:</strong> ${err.message}</div>`;
+        }
+    });
+
+    function renderResults(data) {
+        if (!data.regions || data.regions.length === 0) {
+            resultsContainer.innerHTML = `<div class="error-box">No Schedule of Activities regions found in this file.</div>`;
+            return;
+        }
+
+        let html = `<h2>Results for: ${data.filename}</h2>`;
+
+        data.regions.forEach((region, index) => {
+            html += `<div class="result-card">`;
+            html += `<h3>Table ${index + 1}: ${region.heading || 'Untitled Schedule'}</h3>`;
+            html += `<div class="meta-info">Located at PDF pages ${region.located_pages} (Source: ${region.source})</div>`;
+
+            if (region.error) {
+                html += `<div class="error-box">${region.error}</div>`;
+                html += `</div>`;
+                return;
+            }
+
+            if (region.parse_error) {
+                html += `<div class="error-box"><strong>Parsing Warning:</strong> ${region.parse_error}</div>`;
+            }
+
+            const parsed = region.parsed;
+            if (parsed && parsed.ambiguities && parsed.ambiguities.length > 0) {
+                html += `<div class="ambiguities-box"><strong>Flagged Ambiguities (Faithful, Not Clever):</strong><ul>`;
+                parsed.ambiguities.forEach(amb => {
+                    html += `<li>${amb}</li>`;
+                });
+                html += `</ul></div>`;
+            }
+
+            if (parsed && parsed.columns && parsed.rows) {
+                html += `<div class="table-responsive"><table class="soa-grid"><thead><tr>`;
+                html += `<th>Assessment / Activity</th>`;
+                parsed.columns.forEach(col => {
+                    html += `<th>${col.visit_label || ''}<br><small>${col.study_day_or_week || ''}</small></th>`;
+                });
+                html += `</tr></thead><tbody>`;
+
+                parsed.rows.forEach(row => {
+                    html += `<tr><td class="row-label">${row.label}</td>`;
+                    parsed.columns.forEach(col => {
+                        const cell = row.cells[col.id] || { value: '', footnote_markers: [] };
+                        let cellContent = cell.value || '';
+                        if (cell.footnote_markers && cell.footnote_markers.length > 0) {
+                            cellContent += ` <sup style="color: #2563eb; font-weight:bold;">${cell.footnote_markers.join(',')}</sup>`;
+                        }
+                        html += `<td class="cell-value">${cellContent}</td>`;
+                    });
+                    html += `</tr>`;
+                });
+
+                html += `</tbody></table></div>`;
+
+                if (parsed.footnotes && parsed.footnotes.length > 0) {
+                    html += `<div class="footnote-section"><strong>Footnotes:</strong><br>`;
+                    parsed.footnotes.forEach(fn => {
+                        html += `<code>${fn.marker}</code>: ${fn.text || '<em>Definition not resolved</em>'}<br>`;
+                    });
+                    html += `</div>`;
+                }
+            }
+
+            html += `</div>`;
+        });
+
+        resultsContainer.innerHTML = html;
+    }
+</script>
+
+</body>
+</html>
