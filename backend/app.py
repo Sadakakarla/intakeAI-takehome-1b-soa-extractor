@@ -69,12 +69,16 @@ async def extract(file: UploadFile = File(...)):
         results = []
         for region in regions:
             try:
-                extraction = extract_soa(tmp_path, region["start_page"], region["end_page"])
+                extraction = extract_soa(
+                    tmp_path, region["start_page"], region["end_page"],
+                    shares_page_with=region.get("shares_page_with"),
+                )
                 results.append(
                     {
                         "heading": region["heading_text"],
                         "located_pages": f"{region['start_page']}-{region['end_page']}",
                         "source": region["source"],
+                        "shares_page_with": region.get("shares_page_with"),
                         "source_pages_sent_to_model": extraction.source_pages,
                         "parsed": extraction.parsed,
                         "parse_error": extraction.parse_error,

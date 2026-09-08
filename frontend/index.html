@@ -396,6 +396,9 @@
             html += `<div class="result-card">`;
             html += `<h3>Table ${index + 1}: ${region.heading || 'Untitled Schedule'}</h3>`;
             html += `<div class="meta-info">Located at PDF pages ${region.located_pages} (Source: ${region.source})</div>`;
+            if (region.shares_page_with) {
+                html += `<div class="ambiguities-box"><strong>Shared page:</strong> page ${region.shares_page_with.page} is also used by a separate table, "${region.shares_page_with.other_heading}". The model was told to only extract this table's own portion of that page &mdash; check that boundary by hand against the source PDF.</div>`;
+            }
 
             if (region.error) {
                 html += `<div class="error-box">${region.error}</div>`;

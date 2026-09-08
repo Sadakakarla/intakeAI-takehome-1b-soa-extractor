@@ -89,47 +89,69 @@
       ],
       "row_groups": [
         {
+          "label": null,
+          "row_ids": [
+            "r1",
+            "r2",
+            "r3",
+            "r4",
+            "r5",
+            "r6",
+            "r7",
+            "r8",
+            "r9",
+            "r10",
+            "r11",
+            "r12",
+            "r13"
+          ]
+        },
+        {
           "label": "Primary Outcome Measure:",
           "row_ids": [
-            "chunk0_r14"
+            "r14",
+            "r15"
           ]
         },
         {
           "label": "Secondary Outcome Measures:",
           "row_ids": [
-            "chunk0_r16",
-            "chunk0_r17",
-            "chunk0_r18",
-            "chunk0_r19",
-            "chunk0_r20",
-            "chunk0_r21",
-            "chunk0_r22"
+            "r16",
+            "r17",
+            "r18",
+            "r19",
+            "r20",
+            "r21",
+            "r22",
+            "r23",
+            "r24"
           ]
         },
         {
           "label": "Abuse Potential Assessment:",
           "row_ids": [
-            "chunk0_r25",
-            "chunk0_r26"
+            "r25",
+            "r26"
           ]
         },
         {
           "label": "Safety Measures:",
           "row_ids": [
-            "chunk0_r27",
-            "chunk0_r28",
-            "chunk0_r29",
-            "chunk0_r30",
-            "chunk0_r31",
-            "chunk0_r32",
-            "chunk0_r33"
+            "r27",
+            "r28",
+            "r29",
+            "r30",
+            "r31",
+            "r32",
+            "r33"
           ]
         }
       ],
       "rows": [
         {
-          "id": "chunk0_r1",
+          "id": "r1",
           "label": "Informed Consent, Screening (01), Opiate Screening (02)",
+          "row_footnote_markers": [],
           "cells": {
             "c1": {
               "value": "1X",
@@ -178,8 +200,11 @@
           }
         },
         {
-          "id": "chunk0_r2",
-          "label": "* Morphine (0600, 1100, 1630, 2200 h)",
+          "id": "r2",
+          "label": "Morphine (0600, 1100, 1630, 2200 h)",
+          "row_footnote_markers": [
+            "*"
+          ],
           "cells": {
             "c1": {
               "value": "",
@@ -228,8 +253,11 @@
           }
         },
         {
-          "id": "chunk0_r3",
-          "label": "**Lofexidine or Placebo (0800, 1300, 1800, 2300 h)",
+          "id": "r3",
+          "label": "Lofexidine or Placebo (0800, 1300, 1800, 2300 h)",
+          "row_footnote_markers": [
+            "**"
+          ],
           "cells": {
             "c1": {
               "value": "",
@@ -278,8 +306,9 @@
           }
         },
         {
-          "id": "chunk0_r4",
+          "id": "r4",
           "label": "Medical History (03)",
+          "row_footnote_markers": [],
           "cells": {
             "c1": {
               "value": "1X",
@@ -328,8 +357,9 @@
           }
         },
         {
-          "id": "chunk0_r5",
+          "id": "r5",
           "label": "Physical Examination (04) (Study Day 1 and Exit Day)",
+          "row_footnote_markers": [],
           "cells": {
             "c1": {
               "value": "",
@@ -378,8 +408,9 @@
           }
         },
         {
-          "id": "chunk0_r6",
+          "id": "r6",
           "label": "Prior Medications (05)",
+          "row_footnote_markers": [],
           "cells": {
             "c1": {
               "value": "",
@@ -428,8 +459,9 @@
           }
         },
         {
-          "id": "chunk0_r7",
+          "id": "r7",
           "label": "Laboratory Assessments: Blood (06,07), Urine (08)",
+          "row_footnote_markers": [],
           "cells": {
             "c1": {
               "value": "1X",
@@ -478,8 +510,9 @@
           }
         },
         {
-          "id": "chunk0_r8",
+          "id": "r8",
           "label": "Serum Pregnancy Test (Beta HCG) (09)",
+          "row_footnote_markers": [],
           "cells": {
             "c1": {
               "value": "1X",
@@ -528,8 +561,9 @@
           }
         },
         {
-          "id": "chunk0_r9",
+          "id": "r9",
           "label": "Tuberculosis Skin Test (PPD), RPR, CD4 (10)",
+          "row_footnote_markers": [],
           "cells": {
             "c1": {
               "value": "1X",
@@ -578,19 +612,20 @@
           }
         },
         {
-          "id": "chunk0_r10",
+          "id": "r10",
           "label": "HIV (optional, per separate consent)",
+          "row_footnote_markers": [],
           "cells": {
             "c1": {
               "value": "Prior to Day 4",
               "footnote_markers": []
             },
             "c2": {
-              "value": "",
+              "value": "Prior to Day 4",
               "footnote_markers": []
             },
             "c3": {
-              "value": "",
+              "value": "Prior to Day 4",
               "footnote_markers": []
             },
             "c4": {
@@ -628,19 +663,20 @@
           }
         },
         {
-          "id": "chunk0_r11",
+          "id": "r11",
           "label": "Psychiatric Assessment (SCID, Axis I, DSM IV) (11)",
+          "row_footnote_markers": [],
           "cells": {
             "c1": {
               "value": "Prior to Day 4",
               "footnote_markers": []
             },
             "c2": {
-              "value": "",
+              "value": "Prior to Day 4",
               "footnote_markers": []
             },
             "c3": {
-              "value": "",
+              "value": "Prior to Day 4",
               "footnote_markers": []
             },
             "c4": {
@@ -678,19 +714,20 @@
           }
         },
         {
-          "id": "chunk0_r12",
+          "id": "r12",
           "label": "Addiction Severity Index (ASI) (12)",
+          "row_footnote_markers": [],
           "cells": {
             "c1": {
               "value": "Prior to Day 4",
               "footnote_markers": []
             },
             "c2": {
-              "value": "",
+              "value": "Prior to Day 4",
               "footnote_markers": []
             },
             "c3": {
-              "value": "",
+              "value": "Prior to Day 4",
               "footnote_markers": []
             },
             "c4": {
@@ -728,8 +765,9 @@
           }
         },
         {
-          "id": "chunk0_r13",
+          "id": "r13",
           "label": "Weight (on admission & 0630-0800h \u0101 breakfast) (13)",
+          "row_footnote_markers": [],
           "cells": {
             "c1": {
               "value": "1X",
@@ -778,8 +816,11 @@
           }
         },
         {
-          "id": "chunk0_r14",
-          "label": "*** Modified Himmelsbach (MHOWS), obtained at 1000h (13)",
+          "id": "r14",
+          "label": "Modified Himmelsbach (MHOWS), obtained at 1000h (13)",
+          "row_footnote_markers": [
+            "***"
+          ],
           "cells": {
             "c1": {
               "value": "1X",
@@ -828,8 +869,9 @@
           }
         },
         {
-          "id": "chunk0_r15",
+          "id": "r15",
           "label": "Emesis Tracking (14)",
+          "row_footnote_markers": [],
           "cells": {
             "c1": {
               "value": "",
@@ -878,8 +920,11 @@
           }
         },
         {
-          "id": "chunk0_r16",
-          "label": "\u2022Modified Himmelsbach (MHOWS) (13) Peak Effect Detox/Med Phase",
+          "id": "r16",
+          "label": "Modified Himmelsbach (MHOWS) (13) Peak Effect Detox/Med Phase",
+          "row_footnote_markers": [
+            "\u2022"
+          ],
           "cells": {
             "c1": {
               "value": "",
@@ -928,8 +973,11 @@
           }
         },
         {
-          "id": "chunk0_r17",
-          "label": "\u2022Objective Opiate Withdrawal Scale (15) (OOWS Handlesman) (1000h)",
+          "id": "r17",
+          "label": "Objective Opiate Withdrawal Scale (15) (OOWS Handlesman) (1000h)",
+          "row_footnote_markers": [
+            "\u2022"
+          ],
           "cells": {
             "c1": {
               "value": "1X",
@@ -978,8 +1026,11 @@
           }
         },
         {
-          "id": "chunk0_r18",
-          "label": "\u2022Short Opiate Withdrawal Scale (16) (SOWS Gossop) (1000h)",
+          "id": "r18",
+          "label": "Short Opiate Withdrawal Scale (16) (SOWS Gossop) (1000h)",
+          "row_footnote_markers": [
+            "\u2022"
+          ],
           "cells": {
             "c1": {
               "value": "1X",
@@ -1028,8 +1079,11 @@
           }
         },
         {
-          "id": "chunk0_r19",
-          "label": "\u2022Modified Clinical Global Impressions Scale - Patient (17) (NIMH MCGI) ( 1000h)",
+          "id": "r19",
+          "label": "Modified Clinical Global Impressions Scale - Patient (17) (NIMH MCGI) ( 1000h)",
+          "row_footnote_markers": [
+            "\u2022"
+          ],
           "cells": {
             "c1": {
               "value": "",
@@ -1078,8 +1132,11 @@
           }
         },
         {
-          "id": "chunk0_r20",
-          "label": "\u2022Modified Clinical Global Impressions Scale - Rater (18) (NIMH MCGI) (1000h)",
+          "id": "r20",
+          "label": "Modified Clinical Global Impressions Scale - Rater (18) (NIMH MCGI) (1000h)",
+          "row_footnote_markers": [
+            "\u2022"
+          ],
           "cells": {
             "c1": {
               "value": "",
@@ -1128,8 +1185,11 @@
           }
         },
         {
-          "id": "chunk0_r21",
-          "label": "\u2022Subjective Opiate Withdrawal Scale (19) (SOWS Handlesman) (1000h)",
+          "id": "r21",
+          "label": "Subjective Opiate Withdrawal Scale (19) (SOWS Handlesman) (1000h)",
+          "row_footnote_markers": [
+            "\u2022"
+          ],
           "cells": {
             "c1": {
               "value": "1X",
@@ -1178,8 +1238,11 @@
           }
         },
         {
-          "id": "chunk0_r22",
-          "label": "\u2022Visual Analog Scale (VAS-E) (20)\u2013 Efficacy of Medication for Reducing Withdrawal Sickness (1000h)",
+          "id": "r22",
+          "label": "Visual Analog Scale (VAS-E) (20)\u2013 Efficacy of Medication for Reducing Withdrawal Sickness (1000h)",
+          "row_footnote_markers": [
+            "\u2022"
+          ],
           "cells": {
             "c1": {
               "value": "1X",
@@ -1228,8 +1291,9 @@
           }
         },
         {
-          "id": "chunk0_r23",
+          "id": "r23",
           "label": "Medication Administration/Concomitant Medications (21)",
+          "row_footnote_markers": [],
           "cells": {
             "c1": {
               "value": "1X",
@@ -1278,8 +1342,9 @@
           }
         },
         {
-          "id": "chunk0_r24",
+          "id": "r24",
           "label": "Drop Out Day (cf. End of Study Form (31) (Reason for Drop Out)",
+          "row_footnote_markers": [],
           "cells": {
             "c1": {
               "value": "",
@@ -1328,8 +1393,9 @@
           }
         },
         {
-          "id": "chunk0_r25",
+          "id": "r25",
           "label": "Addiction Research Center Inventory (22) - (ARCI-MBG) (1000h)",
+          "row_footnote_markers": [],
           "cells": {
             "c1": {
               "value": "1X",
@@ -1378,8 +1444,9 @@
           }
         },
         {
-          "id": "chunk0_r26",
-          "label": "Visual Analog Scale (VAS-High)(23) (1000h)",
+          "id": "r26",
+          "label": "Visual Analog Scale (VAS-High) (23) (1000h)",
+          "row_footnote_markers": [],
           "cells": {
             "c1": {
               "value": "1X",
@@ -1428,8 +1495,9 @@
           }
         },
         {
-          "id": "chunk0_r27",
+          "id": "r27",
           "label": "(Sitting) Vital Signs (24, 33) (0800, 1000, 1100, 1300, 1800 2300h and at 0800 at day 11)",
+          "row_footnote_markers": [],
           "cells": {
             "c1": {
               "value": "6X",
@@ -1478,8 +1546,9 @@
           }
         },
         {
-          "id": "chunk0_r28",
+          "id": "r28",
           "label": "Orthostatic (Standing) Vital Signs (24,33) (800, 1100, 1300, 1800, 2300 and only at 0800 at day 11)",
+          "row_footnote_markers": [],
           "cells": {
             "c1": {
               "value": "5X",
@@ -1528,8 +1597,9 @@
           }
         },
         {
-          "id": "chunk0_r29",
+          "id": "r29",
           "label": "Electrocardiogram (25) (1300 to 1430h)",
+          "row_footnote_markers": [],
           "cells": {
             "c1": {
               "value": "1X",
@@ -1578,8 +1648,9 @@
           }
         },
         {
-          "id": "chunk0_r30",
+          "id": "r30",
           "label": "Adverse Events & Abnormal Clinical Signs: (26) (1000h)",
+          "row_footnote_markers": [],
           "cells": {
             "c1": {
               "value": "1X",
@@ -1628,8 +1699,9 @@
           }
         },
         {
-          "id": "chunk0_r31",
+          "id": "r31",
           "label": "Tobacco Withdrawal Scale (27) (1700)",
+          "row_footnote_markers": [],
           "cells": {
             "c1": {
               "value": "1X",
@@ -1678,58 +1750,60 @@
           }
         },
         {
-          "id": "chunk0_r32",
+          "id": "r32",
           "label": "Urine Toxicology (28)",
+          "row_footnote_markers": [],
           "cells": {
             "c1": {
               "value": "Admission, Monday, Wednesday, Friday, Discharge and As Needed",
               "footnote_markers": []
             },
             "c2": {
-              "value": "",
+              "value": "Admission, Monday, Wednesday, Friday, Discharge and As Needed",
               "footnote_markers": []
             },
             "c3": {
-              "value": "",
+              "value": "Admission, Monday, Wednesday, Friday, Discharge and As Needed",
               "footnote_markers": []
             },
             "c4": {
-              "value": "",
+              "value": "Admission, Monday, Wednesday, Friday, Discharge and As Needed",
               "footnote_markers": []
             },
             "c5": {
-              "value": "",
+              "value": "Admission, Monday, Wednesday, Friday, Discharge and As Needed",
               "footnote_markers": []
             },
             "c6": {
-              "value": "",
+              "value": "Admission, Monday, Wednesday, Friday, Discharge and As Needed",
               "footnote_markers": []
             },
             "c7": {
-              "value": "",
+              "value": "Admission, Monday, Wednesday, Friday, Discharge and As Needed",
               "footnote_markers": []
             },
             "c8": {
-              "value": "",
+              "value": "Admission, Monday, Wednesday, Friday, Discharge and As Needed",
               "footnote_markers": []
             },
             "c9": {
-              "value": "",
+              "value": "Admission, Monday, Wednesday, Friday, Discharge and As Needed",
               "footnote_markers": []
             },
             "c10": {
-              "value": "",
+              "value": "Admission, Monday, Wednesday, Friday, Discharge and As Needed",
               "footnote_markers": []
             },
             "c11": {
-              "value": "",
+              "value": "Admission, Monday, Wednesday, Friday, Discharge and As Needed",
               "footnote_markers": []
             }
           }
         },
         {
-          "id": "chunk0_r33",
+          "id": "r33",
           "label": "Plasma Lofexidine Pk (LCMS) (29) Total of 12 samples (10 ml of plasma each ), Day 4: 1X, 0800h; Day 6: 1X, 0800h Day 7: 8X, 0800, 0900, 1000, 1100, 1200, 1300, 1600, 1800h; 2100, 2300; Day 8: 1X:0800; Day 10: 1000h after MHOWS",
+          "row_footnote_markers": [],
           "cells": {
             "c1": {
               "value": "",
@@ -1778,9 +1852,45 @@
           }
         }
       ],
-      "footnotes": [],
       "ambiguities": [
-        "Page 29 contains only footnote text, definitions, and notes for Table 4, with no table grid columns or rows."
+        "Page 29 contains only footnote text, definitions, and glossary notes for Table 4, so no grid rows were extracted from it.",
+        "Footnote marker '\u2022' appears on cell(s) ['r16 (Row Label)', 'r17 (Row Label)', 'r18 (Row Label)', 'r19 (Row Label)', 'r20 (Row Label)', 'r21 (Row Label)', 'r22 (Row Label)'] but its definition text could not be located via text-layer extraction. Needs manual check against the source."
+      ],
+      "footnotes": [
+        {
+          "marker": "*",
+          "text": "Morphine: study day 1 morphine administration times may vary depending upon time of admission.",
+          "attached_to": [
+            "r2 (Row Label)"
+          ]
+        },
+        {
+          "marker": "**",
+          "text": "Lofexidine: The physician may withhold a dose of study medication if the patient is experiencing symptoms of hypotension (dizziness",
+          "attached_to": [
+            "r3 (Row Label)"
+          ]
+        },
+        {
+          "marker": "***",
+          "text": "MHOWS = Modified Himmelsbach Opiate Withdrawal Scale (Primary Outcome Measure)",
+          "attached_to": [
+            "r14 (Row Label)"
+          ]
+        },
+        {
+          "marker": "\u2022",
+          "text": null,
+          "attached_to": [
+            "r16 (Row Label)",
+            "r17 (Row Label)",
+            "r18 (Row Label)",
+            "r19 (Row Label)",
+            "r20 (Row Label)",
+            "r21 (Row Label)",
+            "r22 (Row Label)"
+          ]
+        }
       ]
     },
     "raw_model_output": null

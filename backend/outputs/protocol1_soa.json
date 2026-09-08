@@ -6,7 +6,7 @@
       54
     ],
     "parsed": {
-      "heading": "Schedule of Events for Protocol H2Q-MC-LZZT(c)",
+      "heading": "Protocol Attachment LZZT.1 Schedule of Events for Protocol H2Q-MC-LZZT(c)",
       "columns": [
         {
           "id": "c1",
@@ -107,11 +107,48 @@
           "visit_window": null
         }
       ],
-      "row_groups": [],
+      "row_groups": [
+        {
+          "label": null,
+          "row_ids": [
+            "r1",
+            "r2",
+            "r3",
+            "r4",
+            "r5",
+            "r6",
+            "r7",
+            "r8",
+            "r9",
+            "r10",
+            "r11",
+            "r12",
+            "r13",
+            "r14",
+            "r15",
+            "r16",
+            "r17",
+            "r18",
+            "r19",
+            "r20",
+            "r21",
+            "r22",
+            "r23",
+            "r24",
+            "r25",
+            "r26",
+            "r27",
+            "r28",
+            "r29",
+            "r30"
+          ]
+        }
+      ],
       "rows": [
         {
           "id": "r1",
           "label": "Informed consent",
+          "row_footnote_markers": [],
           "cells": {
             "c1": {
               "value": "X",
@@ -174,6 +211,7 @@
         {
           "id": "r2",
           "label": "Patient number assigned",
+          "row_footnote_markers": [],
           "cells": {
             "c1": {
               "value": "X",
@@ -236,6 +274,7 @@
         {
           "id": "r3",
           "label": "Hachinski \u22644",
+          "row_footnote_markers": [],
           "cells": {
             "c1": {
               "value": "X",
@@ -298,6 +337,7 @@
         {
           "id": "r4",
           "label": "MMSE 10-23",
+          "row_footnote_markers": [],
           "cells": {
             "c1": {
               "value": "X",
@@ -360,6 +400,7 @@
         {
           "id": "r5",
           "label": "Physical examination",
+          "row_footnote_markers": [],
           "cells": {
             "c1": {
               "value": "X",
@@ -406,11 +447,11 @@
               "footnote_markers": []
             },
             "c12": {
-              "value": "",
+              "value": "X",
               "footnote_markers": []
             },
             "c13": {
-              "value": "X",
+              "value": "",
               "footnote_markers": []
             },
             "c14": {
@@ -422,6 +463,7 @@
         {
           "id": "r6",
           "label": "Medical History",
+          "row_footnote_markers": [],
           "cells": {
             "c1": {
               "value": "X",
@@ -484,6 +526,7 @@
         {
           "id": "r7",
           "label": "Habits",
+          "row_footnote_markers": [],
           "cells": {
             "c1": {
               "value": "X",
@@ -546,6 +589,7 @@
         {
           "id": "r8",
           "label": "Chest x-ray",
+          "row_footnote_markers": [],
           "cells": {
             "c1": {
               "value": "X",
@@ -608,6 +652,7 @@
         {
           "id": "r9",
           "label": "Apo E genotyping",
+          "row_footnote_markers": [],
           "cells": {
             "c1": {
               "value": "",
@@ -670,6 +715,7 @@
         {
           "id": "r10",
           "label": "Patient randomized",
+          "row_footnote_markers": [],
           "cells": {
             "c1": {
               "value": "",
@@ -732,6 +778,7 @@
         {
           "id": "r11",
           "label": "Vital signs/Temperature",
+          "row_footnote_markers": [],
           "cells": {
             "c1": {
               "value": "X",
@@ -794,6 +841,7 @@
         {
           "id": "r12",
           "label": "Ambulatory ECG placed",
+          "row_footnote_markers": [],
           "cells": {
             "c1": {
               "value": "",
@@ -856,6 +904,7 @@
         {
           "id": "r13",
           "label": "Ambulatory ECG removed",
+          "row_footnote_markers": [],
           "cells": {
             "c1": {
               "value": "",
@@ -918,6 +967,7 @@
         {
           "id": "r14",
           "label": "ECG",
+          "row_footnote_markers": [],
           "cells": {
             "c1": {
               "value": "X",
@@ -980,6 +1030,7 @@
         {
           "id": "r15",
           "label": "Placebo TTS test",
+          "row_footnote_markers": [],
           "cells": {
             "c1": {
               "value": "X",
@@ -1042,6 +1093,7 @@
         {
           "id": "r16",
           "label": "CT Scan (if not within last year and patient passes all other screens)",
+          "row_footnote_markers": [],
           "cells": {
             "c1": {
               "value": "X",
@@ -1104,6 +1156,7 @@
         {
           "id": "r17",
           "label": "Concomitant Medications",
+          "row_footnote_markers": [],
           "cells": {
             "c1": {
               "value": "X",
@@ -1166,6 +1219,7 @@
         {
           "id": "r18",
           "label": "Laboratory (Chem/Hemat):",
+          "row_footnote_markers": [],
           "cells": {
             "c1": {
               "value": "X",
@@ -1228,6 +1282,7 @@
         {
           "id": "r19",
           "label": "Laboratory (Urinalysis)",
+          "row_footnote_markers": [],
           "cells": {
             "c1": {
               "value": "X",
@@ -1290,6 +1345,7 @@
         {
           "id": "r20",
           "label": "Plasma Specimen (Xanomeline)",
+          "row_footnote_markers": [],
           "cells": {
             "c1": {
               "value": "",
@@ -1352,6 +1408,7 @@
         {
           "id": "r21",
           "label": "Hemoglobin A1C",
+          "row_footnote_markers": [],
           "cells": {
             "c1": {
               "value": "X",
@@ -1415,7 +1472,8 @@
         },
         {
           "id": "r22",
-          "label": "Study drug record Medications dispensed Medications returned",
+          "label": "Study drug record",
+          "row_footnote_markers": [],
           "cells": {
             "c1": {
               "value": "",
@@ -1477,7 +1535,8 @@
         },
         {
           "id": "r23",
-          "label": "TTS Acceptability Survey",
+          "label": "Medications dispensed",
+          "row_footnote_markers": [],
           "cells": {
             "c1": {
               "value": "",
@@ -1524,11 +1583,11 @@
               "footnote_markers": []
             },
             "c12": {
-              "value": "X",
+              "value": "",
               "footnote_markers": []
             },
             "c13": {
-              "value": "X",
+              "value": "",
               "footnote_markers": []
             },
             "c14": {
@@ -1539,10 +1598,11 @@
         },
         {
           "id": "r24",
-          "label": "ADAS-Cog",
+          "label": "Medications returned",
+          "row_footnote_markers": [],
           "cells": {
             "c1": {
-              "value": "P",
+              "value": "",
               "footnote_markers": []
             },
             "c2": {
@@ -1550,7 +1610,7 @@
               "footnote_markers": []
             },
             "c3": {
-              "value": "X",
+              "value": "",
               "footnote_markers": []
             },
             "c4": {
@@ -1566,7 +1626,7 @@
               "footnote_markers": []
             },
             "c7": {
-              "value": "X",
+              "value": "",
               "footnote_markers": []
             },
             "c8": {
@@ -1574,7 +1634,7 @@
               "footnote_markers": []
             },
             "c9": {
-              "value": "X",
+              "value": "",
               "footnote_markers": []
             },
             "c10": {
@@ -1582,7 +1642,7 @@
               "footnote_markers": []
             },
             "c11": {
-              "value": "X",
+              "value": "",
               "footnote_markers": []
             },
             "c12": {
@@ -1590,21 +1650,22 @@
               "footnote_markers": []
             },
             "c13": {
-              "value": "X",
+              "value": "",
               "footnote_markers": []
             },
             "c14": {
-              "value": "X",
+              "value": "",
               "footnote_markers": []
             }
           }
         },
         {
           "id": "r25",
-          "label": "CIBIC+",
+          "label": "TTS Acceptability Survey",
+          "row_footnote_markers": [],
           "cells": {
             "c1": {
-              "value": "P",
+              "value": "",
               "footnote_markers": []
             },
             "c2": {
@@ -1612,7 +1673,7 @@
               "footnote_markers": []
             },
             "c3": {
-              "value": "X",
+              "value": "",
               "footnote_markers": []
             },
             "c4": {
@@ -1628,7 +1689,7 @@
               "footnote_markers": []
             },
             "c7": {
-              "value": "X",
+              "value": "",
               "footnote_markers": []
             },
             "c8": {
@@ -1636,7 +1697,7 @@
               "footnote_markers": []
             },
             "c9": {
-              "value": "X",
+              "value": "",
               "footnote_markers": []
             },
             "c10": {
@@ -1644,11 +1705,11 @@
               "footnote_markers": []
             },
             "c11": {
-              "value": "X",
+              "value": "",
               "footnote_markers": []
             },
             "c12": {
-              "value": "",
+              "value": "X",
               "footnote_markers": []
             },
             "c13": {
@@ -1656,14 +1717,15 @@
               "footnote_markers": []
             },
             "c14": {
-              "value": "X",
+              "value": "",
               "footnote_markers": []
             }
           }
         },
         {
           "id": "r26",
-          "label": "DAD",
+          "label": "ADAS-Cog",
+          "row_footnote_markers": [],
           "cells": {
             "c1": {
               "value": "P",
@@ -1725,7 +1787,134 @@
         },
         {
           "id": "r27",
+          "label": "CIBIC+",
+          "row_footnote_markers": [],
+          "cells": {
+            "c1": {
+              "value": "P",
+              "footnote_markers": []
+            },
+            "c2": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c3": {
+              "value": "X",
+              "footnote_markers": []
+            },
+            "c4": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c5": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c6": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c7": {
+              "value": "X",
+              "footnote_markers": []
+            },
+            "c8": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c9": {
+              "value": "X",
+              "footnote_markers": []
+            },
+            "c10": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c11": {
+              "value": "X",
+              "footnote_markers": []
+            },
+            "c12": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c13": {
+              "value": "X",
+              "footnote_markers": []
+            },
+            "c14": {
+              "value": "X",
+              "footnote_markers": []
+            }
+          }
+        },
+        {
+          "id": "r28",
+          "label": "DAD",
+          "row_footnote_markers": [],
+          "cells": {
+            "c1": {
+              "value": "P",
+              "footnote_markers": []
+            },
+            "c2": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c3": {
+              "value": "X",
+              "footnote_markers": []
+            },
+            "c4": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c5": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c6": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c7": {
+              "value": "X",
+              "footnote_markers": []
+            },
+            "c8": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c9": {
+              "value": "X",
+              "footnote_markers": []
+            },
+            "c10": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c11": {
+              "value": "X",
+              "footnote_markers": []
+            },
+            "c12": {
+              "value": "",
+              "footnote_markers": []
+            },
+            "c13": {
+              "value": "X",
+              "footnote_markers": []
+            },
+            "c14": {
+              "value": "X",
+              "footnote_markers": []
+            }
+          }
+        },
+        {
+          "id": "r29",
           "label": "NPI-X",
+          "row_footnote_markers": [],
           "cells": {
             "c1": {
               "value": "P",
@@ -1794,8 +1983,9 @@
           }
         },
         {
-          "id": "r28",
+          "id": "r30",
           "label": "Adverse events",
+          "row_footnote_markers": [],
           "cells": {
             "c1": {
               "value": "X",
@@ -1857,7 +2047,7 @@
         }
       ],
       "ambiguities": [
-        "Page 52 is a cover page for Protocol Attachment LZZT.1 and does not contain table data."
+        "Page 52 is a section cover page titled 'Protocol Attachment LZZT.1 / Schedule of Events for Protocol H2Q-MC-LZZT(c)' and contains no table data."
       ],
       "footnotes": [
         {
@@ -1869,12 +2059,12 @@
         },
         {
           "marker": "b",
-          "text": "Performed at this visit and via telephone interview 2 weeks following this visit. Xanomeline (LY246708) H2Q-MC-LZZT(c) Protocol Attachment LZZT.2 Alzheimer\u2019s Disease Assessment Scale (ADAS-Cog) With Attention/Concentration Tasks",
+          "text": "Performed at this visit and via telephone interview 2 weeks following this visit.",
           "attached_to": [
-            "r27:c7",
-            "r27:c8",
-            "r27:c9",
-            "r27:c10"
+            "r29:c7",
+            "r29:c8",
+            "r29:c9",
+            "r29:c10"
           ]
         }
       ]
