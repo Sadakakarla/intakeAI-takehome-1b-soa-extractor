@@ -165,7 +165,7 @@ If I had more time, this is roughly the priority order I'd tackle things in, sta
 
 ## The AI tools I used
 
-I used Claude (Anthropic) for this project, mainly for two things: talking through the architecture as I was building it, and debugging real problems that only showed up once I started comparing the tool's output against the actual source PDFs manually by hand.
+I used Claude (Anthropic) for this project, mainly for two things: talking through the architecture as I was building it and debugging real problems that only showed up once I started comparing the tool's output against the actual source PDFs manually by hand.
 
 - Where it genuinely helped: it caught bugs I don't think I would have been able to find on my own in the time I had, especially the footnote-corruption issue. That one is subtle — it doesn't look like an error, it just quietly produces the wrong answer under a key that looks correct — and it only became obvious by literally reading the source PDF page next to the JSON output and noticing the text didn't match. It also caught the two-tables-on-one-page situation on protocol 5, which the assignment calls out directly but which is easy to miss unless you're specifically looking for a second schedule.
 
