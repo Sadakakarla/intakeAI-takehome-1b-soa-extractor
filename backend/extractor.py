@@ -14,7 +14,7 @@ from google import genai
 from google.genai import types
 import fitz  # PyMuPDF
 
-RENDER_DPI = 200
+RENDER_DPI = 300
 
 # GROQ_VISION_MODEL = "qwen/qwen3.6-27b"
 GEMINI_MODEL = "gemini-3.6-flash"
@@ -74,6 +74,7 @@ CRITICAL RULES:
 - Capture cell values EXACTLY as printed. Do not normalize "3X"/"Q2W"/"(X)"
   to true/false or to a plain "X". Preserve doses, dashes, dots, arrows.
 - Spanning Arrows/Lines: If a continuous visual line or arrow spans horizontally across multiple columns, you MUST output "<-->" in EVERY cell that the arrow crosses. Do not leave those cells blank.
+- Before assigning a cell to a column id, trace directly upward from the mark to confirm which visit header it sits under — do not estimate based on row position alone. This is especially important for rows with few marks, near the left/right edges of the table, or where the column headers are far above the current row.
 - Verification: Before outputting, double-check that EVERY row is accounted for in the 'grp' arrays. Double-check faint checkmarks, 'X's, or marks under columns like 'Screening' or 'Discharge' and ensure they are captured.
 - A cell or row label may carry more than one footnote marker -- list all of them.
 - Carry forward column study periods ('per') horizontally if they span multiple columns.
@@ -467,7 +468,7 @@ def extract_soa(
                 response = client.models.generate_content(
                     model=GEMINI_MODEL,
                     contents=contents,
-                    config=types.GenerateContentConfig(temperature=0.2, response_mime_type="application/json"),
+                    config=types.GenerateContentConfig(temperature=0, response_mime_type="application/json"),
                 )
                 raw_text = response.text
                 raw_outputs.append(raw_text)
